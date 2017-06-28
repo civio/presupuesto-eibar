@@ -12,9 +12,9 @@ $gray-lightest:         lighten($gray-base, 96%) !default;
 
 $text-color:            #414141;
 
-$brand-primary:         #d32e12;
-$brand-secondary:       #49647A;
-$brand-terciary:        #DDCFC1;
+$brand-primary:         #990033;
+$brand-secondary:       #990033;
+$brand-terciary:        #F5F1F0;
 
 $link-color:            $brand-primary;
 $link-hover-color:      $link-color;
@@ -24,7 +24,7 @@ $link-hover-decoration: underline;
 // Typography
 // -------------
 
-$font-family-sans-serif:  "Source Sans Pro", Helvetica, Arial, sans-serif;
+$font-family-sans-serif:  Arial, Helvetica Neue, Helvetica, sans-serif;
 $font-family-serif:       Georgia, "Times New Roman", Times, serif;
 $font-family-base:        $font-family-sans-serif;
 
@@ -48,8 +48,8 @@ $container-large-desktop:  (1050px + $grid-gutter-width);
 // Main Entity Logo
 // -------------
 
-$main-entity-logo-width:   81px;
-$main-entity-logo-height:  68px;
+$main-entity-logo-width:   160px;
+$main-entity-logo-height:  75px;
 
 
 // Navbar
@@ -83,8 +83,8 @@ $footer-bg: $brand-primary;
 // Page Header
 // --------------
 
-$page-header-bg:            mix( $brand-secondary, white, 8% );
-$page-header-border-color:  mix( $brand-secondary, white, 70% );
+$page-header-bg:            $brand-terciary;	//mix( $brand-secondary, white, 8% );
+$page-header-border-color:  mix( $brand-terciary, $brand-primary, 70% );
 
 
 // Panels
@@ -180,5 +180,5 @@ $data-sources-color: $brand-terciary;
 // Sankey Viz
 // --------------
 
-$sankey-budget-color:     saturate( lighten( $brand-secondary, 12% ), 10% );                          // #1F77B4;
-$sankey-execution-color:  saturate( lighten( adjust-hue( $sankey-budget-color, 100% ), 10% ), 10% );  //#E377C2;
+$sankey-budget-color:     mix( $gray-light, $gray-lighter, 40% );
+$sankey-execution-color:  mix( $brand-primary, white, 80% );                          // #1F77B4;
