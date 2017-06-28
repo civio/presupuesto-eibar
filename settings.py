@@ -77,20 +77,20 @@ SHOW_TAX_RECEIPT = True
 
 # Supported languages. Default: ('es', 'Castellano')
 LANGUAGES = (
+  ('eu', 'Euskera'),
   ('es', 'Castellano'),
-  ('en', 'English'),
+  # ('en', 'English'),
   # ('ca', 'Catal&agrave;'),
-  # ('eu', 'Euskera'),
   # ('gl', 'Galego'),
 )
 
 # Facebook Aplication ID used in social_sharing temaplate. Default: ''
 # In order to get the ID create an app in https://developers.facebook.com/
-FACEBOOK_ID             = ''
+FACEBOOK_ID             = '865984326887167'
 
 # Google Analytics ID. Default: ''
 # In order to get the ID create a Google Analytics Acount in https://analytics.google.com/analytics/web/
-ANALYTICS_ID            = ''
+ANALYTICS_ID            = 'UA-28946840-35'
 
 # Setup Data Source Budget link
 DATA_SOURCE_BUDGET      = ''
@@ -102,10 +102,10 @@ DATA_SOURCE_POPULATION  = ''
 DATA_SOURCE_INFLATION   = ''
 
 # Setup Main Entity Web Url
-MAIN_ENTITY_WEB_URL     = ''
+MAIN_ENTITY_WEB_URL     = 'http://www.eibar.eus'
 
 # Setup Main Entity Legal Url (if empty we hide the link)
-MAIN_ENTITY_LEGAL_URL   = ''
+MAIN_ENTITY_LEGAL_URL   = 'http://www.eibar.eus/eu/lege-oharra'
 
 # Setup Main Entity Legal Url (if empty we hide the link)
 MAIN_ENTITY_PRIVACY_URL = ''
