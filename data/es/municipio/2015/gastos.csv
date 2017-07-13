@@ -1,514 +1,645 @@
-#Aplicación Presupuestaria,Denominación,Créditos Iniciales,Modificaciones de Crédito,Créditos Definitivos,Obligaciones Reconocidas
-     161  61100,Acondicionamiento Depósitos Municipales de Agua,,120000.0,120000.0,
-     161  22114,Aguas depuradas para riego,200000.0,,200000.0,
-     161  60910,Instalaciones en BT Repetidor La Centinela,,164000.0,164000.0,
-     161  60208,Inversiones Red Saneamiento y Pluviales,,80663.38,80663.38,
-     161  76129,Saneamiento y Urbanización en El Fraile III Fase,,60280.73,60280.73,
-     161  22711,Servicio Abastecimiento de Agua y Alcantarillado,11600000.0,,11600000.0,11545609.8
-     161  22502,Tributos de las Entidades Locales,4300000.0,,4300000.0,4596224.68
-     430  41002,Al Patronato Municipal de Turismo,1035645.0,,1035645.0,1035645.0
-     430  46902,Convenio Regeneración espacio turístico,93718.0,,93718.0,93718.0
-     920  62301,Acondicionamiento Ingeniería CPD Municipales.,15000.0,,15000.0,
-     920  20200,Arrendamientos de Edificios y otras Construcciones,30000.0,,30000.0,24373.59
-     920  23300,Otras indemnizaciones ,5000.0,,5000.0,800.0
-     920  22103,Combustibles y carburantes,10000.0,,10000.0,6095.03
-     920  12100,Complemento de destino,175000.0,,175000.0,130024.07
-     920  12101,Complemento especifico,370000.0,,370000.0,253302.76
-     920  12102,Complemento de Residencia,42000.0,,42000.0,30465.07
-     920  23020,Dietas del personal no directivo,3000.0,,3000.0,715.23
-     920  23120,Locomoción del personal no directivo,8000.0,,8000.0,2071.84
-     920  21200,"Reparaciones, man. y conserv. Edificios y otras co",35000.0,,35000.0,18516.52
-     920  22605,Elecciones,,,,29345.72
-     920  21400,Repar. mant. y conserv. elementos de transporte,7000.0,,7000.0,4460.22
-     920  22100,Energía eléctrica,900000.0,,900000.0,673496.6
-     920  62617,Equipamiento Informático Centros Cívicios Medianía,32100.0,,32100.0,
-     920  21502,Equipamiento Mobiliario Centros Cívicios Medianías,18220.0,,18220.0,500.0
-     920  62503,Equipamiento Mobiliario Centros Civicos.,9695.0,,9695.0,
-     920  62600,Equipos para Proceso de Información,400000.0,,400000.0,335694.12
-     920  22706,Estudios y Trabajos Técnicos,280000.0,,280000.0,73669.16
-     920  16200,Formación y perfeccionamiento del Personal,5000.0,,5000.0,5779.0
-     920  15100,Gratificaciones,10000.0,,10000.0,32949.03
-     920  22203,Informáticas,45000.0,,45000.0,39213.76
-     920  22604,"Jurídicos, Contenciosos",200000.0,,200000.0,421456.74
-     920  22700,Limpieza y Aseo,2270000.0,,2270000.0,2000334.86
-     920  21304,Mantenimiento Aire Acondicionado,18000.0,,18000.0,17857.67
-     920  62300,"Maquinaria, Instalaciones y Utillaje",5000.0,,5000.0,5212.74
-     920  22002,Material informático no inventariable,250000.0,,250000.0,293245.11
-     920  22607,Oposiciones y pruebas selectivas,5000.0,,5000.0,7796.55
-     920  22000,Ordinario no inventariable,20000.0,,20000.0,35572.36
-     920  13100,Retribuciones personal temporal,335000.0,,335000.0,284370.85
-     920  22616,Plan de Formación Interno Empleados Públicos,10000.0,,10000.0,11993.65
-     920  22201,Postales,300000.0,,300000.0,204502.28
-     920  22001,"Prensa, revistas, libros y otras publicaciones",10000.0,,10000.0,19421.75
-     920  22401,Primas de seguros vehículos municipales.,3000.0,,3000.0,2240.0
-     920  15000,Productividad,13120.0,,13120.0,337.48
-     920  22105,Productos alimenticios,18000.0,,18000.0,12431.6
-     920  22110,Productos de limpieza y aseo,1000.0,,1000.0,211.21
-     920  22603,Publicación en Diarios Oficiales,9000.0,,9000.0,6714.44
-     920  22602,Publicidad y Propaganda,65000.0,,65000.0,76122.7
-     920  21600,Repar. mant. y cons. Equipos para procesos informa,31400.0,,31400.0,12665.1
-     920  21500,Repar. mant. y cons. Mobiliario,2000.0,,2000.0,2224.14
-     920  21000,"Reparaciones, man. y conserv. infraestructuras y b",1000.0,,1000.0,
-     920  13000,Retribuciones personal laboral fijo,290000.0,,290000.0,262148.29
-     920  14301,Retribuciones personal afecto a programas,145000.0,,145000.0,118511.93
-     920  16000,Seguridad Social,520000.0,,520000.0,508188.96
-     920  22701,Seguridad,18000.0,,18000.0,17579.76
-     920  22713,Servicio de mantenimiento de vías y edificios,320000.0,,320000.0,59.4
-     920  22716,Servicio de Mantenimiento Eléctrico de Edificios,72000.0,,72000.0,62360.31
-     920  12000,Sueldos del Grupo A1,145000.0,,145000.0,154454.54
-     920  12001,Sueldos del Grupo A2,14700.0,,14700.0,19723.89
-     920  12003,Sueldos del Grupo C1,45000.0,,45000.0,29328.94
-     920  12004,Sueldos del Grupo C2,72000.0,,72000.0,80772.15
-     920  12005,Sueldos del Grupo E,32000.0,,32000.0,39814.43
-     920  22112,"Suministros de material electrónico, eléctrico y t",2000.0,,2000.0,7636.68
-     920  22204,Telefónicas,52000.0,,52000.0,58149.14
-     920  12006,Trienios,55000.0,,55000.0,41772.77
-     920  22104,Vestuario,12000.0,,12000.0,4967.17
-     330  41000,Al Patronato Municipal de Cultura,2402141.95,,2402141.95,2402141.95
-     330  22100,Energía eléctrica,10000.0,,10000.0,
-     330  22713,Servicio de mantenimiento de vías y edificios,320000.0,,320000.0,
-     330  22204,Teléfonos,5000.0,,5000.0,4424.81
-     340  41001,Al Patronato Municipal de Deportes,2461395.0,,2461395.0,2461395.0
-     340  22100,Energía eléctrica,231000.0,,231000.0,223560.57
-     320  12100,Complemento de destino,7200.0,,7200.0,
-     320  12101,Complemento especifico,12000.0,,12000.0,
-     320  12102,Complemento de Residencia,1700.0,,1700.0,
-     320  23020,Dietas del personal no directivo,600.0,,600.0,
-     320  23120,Locomoción del personal no directivo,600.0,,600.0,
-     320  22100,Energía eléctrica,100000.0,,100000.0,82516.16
-     320  16200,Formación y Perfeccionamiento del Personal,600.0,,600.0,
-     320  15100,Gratificaciones,1000.0,,1000.0,
-     320  13100,Retribuciones personal temporal,77000.0,,77000.0,48721.93
-     320  22001,"Prensa, revistas, libros y otras publicaciones",1000.0,,1000.0,
-     320  15000,Productividad,1000.0,,1000.0,
-     320  13000,Retribuciones personal laboral fijo,206000.0,,206000.0,131592.61
-     320  14301,Retribuciones personal afecto a programas,19400.0,,19400.0,16615.22
-     320  16000,Seguridad Social,110000.0,,110000.0,73898.36
-     320  22713,Servicio de mantenimiento de vías y edificios,320000.0,,320000.0,5508.31
-     320  22716,Servicio de Mantenimiento Eléctrico de Edificios,198130.0,,198130.0,184783.45
-     320  12001,Sueldos del Grupo A2,15000.0,,15000.0,
-     150  20200,Arrendamientos de Edificios y otras construcciones,13500.0,,13500.0,13215.88
-     150  22103,Combustibles y carburantes,10000.0,,10000.0,11121.39
-     150  12100,Complemento de destino,200000.0,-50000.0,150000.0,142629.71
-     150  12101,Complemento especifico,440000.0,,440000.0,285095.08
-     150  12102,Complemento de Residencia,50000.0,-1800.0,48200.0,32445.07
-     150  23020,Dietas del personal no directivo,1000.0,,1000.0,416.89
-     150  23120,Locomoción del personal no directivo,2000.0,,2000.0,638.83
-     150  21400,"Reparación, man. y conserv. elementos de transport",7000.0,,7000.0,8073.12
-     150  22100,Energía eléctrica,250000.0,,250000.0,194063.56
-     150  22706,Estudios y trabajos técnicos,75000.0,,75000.0,3000.0
-     150  16200,Formación y Perfeccionamiento del Personal,1000.0,,1000.0,3783.59
-     150  15100,Gratificaciones,1000.0,,1000.0,8180.03
-     150  62300,"Maquinaria, Instalaciones y Utillaje",1000.0,,1000.0,
-     150  22000,Ordinario no inventariable,6000.0,,6000.0,242.85
-     150  60101,Parque Urbano Cho-Parque La Reina ,,58000.0,58000.0,
-     150  13100,Retribuciones personal temporal,280000.0,,280000.0,354940.88
-     150  22001,"Prensa, revistas, libros y otros",1000.0,,1000.0,
-     150  22401,Primas de seguros,7000.0,,7000.0,4587.94
-     150  15000,Productividad,5000.0,,5000.0,
-     150  21500,Repar. mant. y cons. Mobiliario,6000.0,,6000.0,3037.2
-     150  13000,Retribuciones personal laboral fijo,360000.0,,360000.0,305226.27
-     150  14301,Retribuciones personal afecto a programas,127500.0,,127500.0,110241.22
-     150  16000,Seguridad Social,552000.0,-14500.0,537500.0,534473.03
-     150  12000,Sueldos del Grupo A1,142000.0,,142000.0,150001.67
-     150  12001,Sueldos del Grupo A2,57000.0,,57000.0,53500.22
-     150  12003,Sueldos del Grupo C1,72000.0,,72000.0,33230.11
-     150  12004,Sueldos del Grupo C2,62000.0,,62000.0,92155.63
-     150  12005,Sueldos del Grupo E,25000.0,,25000.0,30356.62
-     150  12006,Trienios,72000.0,-20000.0,52000.0,51310.33
-     170  22103,Combustibles y carburantes.,3000.0,,3000.0,2598.02
-     170  12100,Complemento de destino,25000.0,,25000.0,8378.4
-     170  12101,Complemento especifico,52000.0,,52000.0,19370.28
-     170  12102,Complemento de Residencia,5200.0,,5200.0,2058.48
-     170  23020,Dietas del personal no directivo,1000.0,,1000.0,
-     170  23120,Locomoción del personal no directivo,2000.0,,2000.0,27.55
-     170  21400,Elementos de Transporte,,,,440.87
-     170  16200,Formación y Perfeccionamiento del Personal,1000.0,,1000.0,
-     170  15100,Gratificaciones,1000.0,,1000.0,
-     170  22000,Ordinario no inventariable,1000.0,,1000.0,217.21
-     170  13100,Retribuciones personal temporal,33000.0,,33000.0,33473.96
-     170  22001,"Prensa, revistas, libros y otras publicaciones",1000.0,,1000.0,
-     170  22401,Primas de seguros vehículos municipales.,1500.0,,1500.0,1347.0
-     170  15000,Productividad,1000.0,,1000.0,
-     170  22602,Publicidad y propaganda,10000.0,,10000.0,880.0
-     170  13000,Retribuciones personal laboral fijo,74000.0,,74000.0,14113.02
-     170  14301,Retribuciones personal afecto a programas,22200.0,,22200.0,19103.52
-     170  22606,"Reuniones, conferencias y cursos.",8000.0,,8000.0,
-     170  16000,Seguridad Social,75000.0,,75000.0,34838.53
-     170  12000,Sueldos del Grupo A1,36700.0,,36700.0,22145.42
-     170  12006,Trienios,2500.0,,2500.0,2047.2
-     130  22103,Combustibles y carburantes.,60000.0,,60000.0,48008.38
-     130  21305,Mantenimiento Cámaras de Seguridad,18000.0,,18000.0,28927.0
-     130  21303,Mantenimiento de Extintores,18000.0,,18000.0,9046.08
-     130  22002,Material informático no inventariable,1000.0,,1000.0,
-     130  22000,Ordinario no inventariable,10000.0,,10000.0,5532.44
-     130  22001,"Prensa, revistas, libros y otras publicaciones",1000.0,,1000.0,
-     130  22401,Primas de seguros vehiculos mples.,16000.0,,16000.0,16446.98
-     130  21500,Repar. mant. y cons. Mobiliario,1000.0,,1000.0,1924.49
-     130  22111,"Suministros de repuestos de maquinaria, utillaje",10000.0,,10000.0,4126.44
-     130  22204,Teléfonos,10500.0,,10500.0,5644.8
-     130  22104,Vestuario,120000.0,,120000.0,20757.39
-     160  76102,"Marco en Barranco La Sabinita-C/ El Horno, Cabo Bl",328577.0,,328577.0,
-     160  76101,Red drenaje para recogida aguas pluviales Morro G.,143581.0,,143581.0,
-     165  42393,Aportación Comité Español Iluminación,601.0,,601.0,440.0
-     165  62300,"Maquinaria, Instalaciones y Utillaje",5500.0,,5500.0,
-     165  22712,Servicio Mantenimiento Alumbrado Público,1293100.0,,1293100.0,1224632.55
-     3322  20200,Arrendamientos de Edificios y otras contrucciones,10000.0,,10000.0,9796.53
-     3322  12100,Complemento de destino,6700.0,,6700.0,5680.2
-     3322  12101,Complemento específico,11000.0,,11000.0,9138.6
-     3322  12102,Complemento residencia,1500.0,,1500.0,1387.2
-     3322  15100,Gratificaciones,1000.0,,1000.0,
-     3322  13100,Personal Laboral temporal,21000.0,,21000.0,8882.63
-     3322  15000,Productividad,1000.0,,1000.0,
-     3322  13000,Retribuciones básicas,20000.0,,20000.0,19816.68
-     3322  16000,Seguridad Social,22000.0,,22000.0,26517.51
-     3322  12003,Sueldos del Grupo C1,10000.0,,10000.0,13750.84
-     3322  12006,Trienios,3500.0,,3500.0,2740.56
-     231  62213,Adecuación N.V. Instalaciones Residencia Mayores C,,218394.02,218394.02,
-     231  41003,Al Patronato Municipal de Servicios Sociales,3583240.0,314009.33,3897249.33,3815139.32
-     231  63211,Ampliación Residencia de Mayores Los Cristianos,,28000.0,28000.0,
-     231  23020,Dietas del personal no directivo,,,,
-     231  23120,Locomoción del personal no directivo,,,,
-     231  16200,Formación y Perfeccionamiento del Personal,1000.0,,1000.0,
-     231  62300,"Maquinaria, instalaciones y utillaje",,6543.22,6543.22,
-     231  62400,Material de Transporte,,10181.27,10181.27,
-     231  62500,Mobiliario,,31374.02,31374.02,
-     231  13000,Retribuciones personal laboral fijo,168000.0,24000.0,192000.0,171233.91
-     231  16000,Seguridad Social,52000.0,4500.0,56500.0,51810.79
-     231  44221,Subvención a la Empresa Municipal ADESA,1020040.0,,1020040.0,1020040.0
-     925  12100,Complemento de destino,42000.0,,42000.0,29663.48
-     925  12101,Complemento específico,80000.0,,80000.0,53310.71
-     925  12102,Complemento de Residencia,9000.0,,9000.0,6624.43
-     925  23020,Dietas del personal no directivo,1000.0,,1000.0,
-     925  23120,Locomoción del personal no directivo,1000.0,,1000.0,535.79
-     925  16200,Formación y Perfeccionamiento del Personal,1000.0,,1000.0,
-     925  15100,Gratificaciones,1000.0,,1000.0,
-     925  13100,Retribuciones personal temporal,130000.0,,130000.0,182106.66
-     925  15000,Productividad,33500.0,,33500.0,153.3
-     925  13000,Retribuciones básicas,295000.0,,295000.0,201728.23
-     925  16000,Seguridad Social,190000.0,,190000.0,238541.63
-     925  22720,Servicio de Atención Telefónica,584590.0,,584590.0,476851.38
-     925  12003,Sueldos del Grupo C1,30000.0,,30000.0,14279.83
-     925  12004,Sueldos del Grupo C1,35000.0,,35000.0,56691.61
-     925  12006,Trienios,15000.0,,15000.0,10519.76
-     3321  20200,Arrendamientos de Edificios y otras Construcciones,,,,
-     453  60137,Conexión Peatonal Guargacho-Las Rosas,,967574.09,967574.09,
-     453  60816,Rehab. pav. de calzada núcleo Los Cristianos,,69982.94,69982.94,69982.94
-     453  60819,Rehab. pav. de calzada núcleo Valle S.L.,,63920.2,63920.2,42565.28
-     164  62214,Ampliación del Cementerio Municipal,,56225.85,56225.85,
-     164  62215,Construcción Nichos medidas especiales,,18000.0,18000.0,17308.89
-     164  22615,Inhumaciones,5000.0,,5000.0,543.84
-     164  21306,Mantenimiento Horno Pirolitico Cementerio Mpal.,,,,1300.0
-     164  13100,Retribuciones personal temporal,16000.0,,16000.0,13940.76
-     164  62302,"Plataformas, Escaleras y Maquinaria",35300.0,,35300.0,
-     164  22110,Productos de limpieza y aseo,1000.0,,1000.0,721.2
-     164  63202,Refuerzo Estructural Cementerio Municipal ,,23000.0,23000.0,22907.92
-     164  13000,Retribuciones personal laboral fijo,37000.0,,37000.0,35568.65
-     164  14301,Retribuciones personal afecto a programas,19600.0,,19600.0,16822.88
-     164  16000,Seguridad Social,26000.0,,26000.0,32800.13
-     164  22104,Vestuario,1000.0,,1000.0,1056.05
-     1522  60001,Adquisición de Suelo para Construcción V.P.O.,,210000.0,210000.0,
-     1522  78011,Ayudas Rehabilitacion viviendas 1ª Necesidad,100000.0,-25934.85,74065.15,20214.77
-     922  42392,Aportación a la FEMP,6000.0,,6000.0,5288.45
-     922  12100,Complemento de destino,6000.0,,6000.0,9474.96
-     922  12101,Complemento específico,8000.0,,8000.0,13176.72
-     922  12102,Complemento de Residencia,1200.0,,1200.0,2286.72
-     922  23020,Dietas del personal no directivo,1000.0,,1000.0,
-     922  23120,Locomoción del personal no directivo,600.0,,600.0,
-     922  16200,Formación y Perfeccionamiento del Personal,1000.0,,1000.0,
-     922  15100,Gratificaciones,1000.0,,1000.0,970.2
-     922  15000,Productividad,1000.0,,1000.0,
-     922  13000,Retribuciones personal laboral fijo,62000.0,,62000.0,62987.65
-     922  16000,Seguridad Social,28000.0,,28000.0,35956.57
-     922  12004,Sueldos del Grupo C2,9000.0,,9000.0,22660.42
-     922  12006,Trienios,2500.0,,2500.0,2900.88
-     433  22614,Plan de Promoción Económica,340000.0,-138720.0,201280.0,191034.37
-     414  46600,Aportación Desarrollo Rural Chasna- Isora,6010.0,,6010.0,6000.0
-     414  62507,Equipamiento Mercadillo Municipal del Agricultor,80000.0,-12000.0,68000.0,4130.2
-     414  22121,Suministro Mercadillo Municipal del Agricultor,6000.0,,6000.0,2503.28
-     011  91301,Amortización préstamos largo plazo entidades fin.,1100000.0,,1100000.0,906424.83
-     011  31000,Intereses,250000.0,,250000.0,174919.42
-     338  22610,Festejos y Actos Populares,175000.0,,175000.0,255670.62
-     338  22611,Fiestas del Municipio,213000.0,,213000.0,296442.99
-     338  48100,Subvenciones a Comisiones de Fiestas,67400.0,,67400.0,46900.0
-     3271  22609,Actividades Socioculturales,73500.0,,73500.0,61838.06
-     3271  20200,Arrendamientos de edificios y otras construcciones,,,,
-     3271  16200,Formación y perfeccionamiento del personal,600.0,,600.0,433.32
-     3271  13100,Personal laboral temporal,82000.0,,82000.0,78952.11
-     3271  13000,Retribuciones básicas,108000.0,,108000.0,106216.92
-     3271  14301,Retribuciones personal afecto a programas,44100.0,,44100.0,37574.52
-     3271  16000,Seguridad Social,80000.0,,80000.0,76102.68
-     241  20200,Arrendamientos de Edificios y otras Construcciones,22500.0,,22500.0,17641.64
-     241  23020,Dietas del personal no directivo,1000.0,,1000.0,336.6
-     241  23120,Locomoción del personal no directivo,1000.0,,1000.0,137.75
-     241  22706,Estudios y Trabajos Técnicos,88000.0,,88000.0,66785.79
-     241  14303,Retribuciones personal convenios,500000.0,,500000.0,528996.73
-     241  16200,Formación y Perfeccionamiento del Personal,1000.0,,1000.0,650.0
-     241  62300,"Maquinaria, Instalaciones y Utillaje",1000.0,,1000.0,
-     241  22612,Material Convenios Fomento Empleo,30000.0,,30000.0,8625.66
-     241  14342,Mejora de las Zonas Rurales de Medianias de Arona ,,101940.48,101940.48,67651.61
-     241  60812,Mobiliario Urbano,,54054.39,54054.39,
-     241  22000,Ordinario no inventariable,1000.0,,1000.0,
-     241  13100,Retribuciones personal temporal,95000.0,,95000.0,70859.12
-     241  14340,Programa Extraordinario Bianual de empleo social ,,531829.46,531829.46,531829.46
-     241  14302,Retribuciones convenios AEDL,35000.0,,35000.0,
-     241  13000,Retribuciones personal laboral fijo,73000.0,20000.0,93000.0,76932.95
-     241  14301,Retribuciones personal afecto a programas,,,,39054.66
-     241  22606,"Reuniones, Conferencias y Cursos",54000.0,,54000.0,30202.0
-     241  16000,Seguridad Social,55000.0,265543.46,320543.46,500437.16
-     241  48014,"Convnio Fundación Proyecto D,. Bosco",20000.0,,20000.0,
-     241  14341,Subvención para implementar Plan Especial Empleo S,,21778.08,21778.08,
-     323  20200,Arrendamientos de Edificios y otras Construcciones,6000.0,,6000.0,
-     323  21302,Mantenimiento de ascensores,15000.0,,15000.0,3008.7
-     1622  62304,Autocompactadores,,85000.0,85000.0,
-     933  16200,Formación y Perfeccionamiento del Personal,600.0,,600.0,
-     933  13000,Retribuciones personal laboral fijo,20000.0,,20000.0,14604.19
-     933  16000,Seguridad Social,6500.0,,6500.0,9589.92
-     312  20200,Arrendamientos de Edificios y otras Construcciones,,,,
-     312  22100,Energía eléctrica,53000.0,,53000.0,8926.11
-     929  20800,Arrendamientos de Otro Inmovilizado Material,7000.0,,7000.0,
-     929  22103,Combustibles y carburantes,1000.0,,1000.0,
-     929  12101,Complemento Especifico.,43380.0,,43380.0,
-     929  21400,Repar. mant. y cons. elementos de transporte,1000.0,,1000.0,
-     929  50000,Fondo de Contingencia,1000000.0,-869815.52,130184.48,
-     929  21300,"Reparaciones, Mante. y conserv. Maquinaria e Inst.",10000.0,,10000.0,2121.66
-     929  62500,Mobiliario,5000.0,,5000.0,2675.0
-     929  22000,Ordinario no inventariable,2000.0,,2000.0,
-     929  13002,Otras Remuneraciones,63000.0,,63000.0,118441.81
-     929  12009,Otras Retribuciones básicas.,58041.0,-40000.0,18041.0,
-     929  48102,Premios,2000.05,,2000.05,
-     929  22402,Primas de seguros resto,1000.0,,1000.0,333.0
-     929  21500,Repar. mant. y cons. Mobiliario,2000.0,,2000.0,1547.95
-     929  22606,"Reuniones, conferencias y cursos",2000.0,,2000.0,
-     929  22619,Sanciones,10000.0,,10000.0,5819.18
-     929  22702,Valoraciones y Peritajes,1000.0,,1000.0,120.0
-     432  63208,Adecuación Campo de Tiro de Arona,30000.0,,30000.0,
-     432  45392,Convenio Gesplan Redacción plan de Modernización ,80000.0,,80000.0,
-     432  46901,Convenio Promoción Turística SPET,150000.0,,150000.0,150000.0
-     432  76110,Estrategia de Mejora del Espacio Público Turístico,641526.0,,641526.0,
-     432  62255,Oficinas de Turismo Plan Q,,4028.75,4028.75,
-     432  76124,SPET Plan de Oficinas Turísticas,,12000.0,12000.0,
-     342  62250,Adecuación Reglamentación B.T. Campo Tiro de Arona,,2412.74,2412.74,
-     342  62207,Cámaras de seguridad Edificios Públicos,,6304.26,6304.26,
-     342  62901,Circuito Aire Libre Las Américas.,25000.0,,25000.0,
-     342  62226,Complejo Deportivo,,86448.09,86448.09,86448.09
-     342  62203,Cubierta Piscina Polivalente de Los Cristianos,,2003.42,2003.42,
-     342  62306,Desfibriladores Instalaciones Deportivas ,18000.0,,18000.0,17919.84
-     342  62305,Extracción de Aire Piscina Cubierta los Cristianos,18000.0,,18000.0,
-     342  22748,Reacondic. Pavimento Parket Pabellón Las Galletas,12466.0,,12466.0,12465.65
-     342  22751,Servicio de baño adaptado en Arona,,,,
-     342  22713,Servicio de mantenimiento de vías y edificios,320000.0,,320000.0,
-     342  22716,Servicio de Mantenimiento Eléctrico de Edificios,244500.0,,244500.0,218438.71
-     342  22752,Sustitución  césped artificial Pistas de Padel,12000.0,,12000.0,
-     342  22749,Sustitución Cesped Artificial Anexo Antonio Dguez.,160000.0,,160000.0,
-     342  22750,Sustitución Pavimento Pabellón El Fraile.,54000.0,,54000.0,
-     1722  21400,"Reparaciones, mante. y conservación elementos de t",2000.0,,2000.0,
-     1722  22751,Servicio de Baño Adaptado en Arona,14365.0,,14365.0,52670.75
-     133  22717,Servicio Grua Municipal,472000.0,,472000.0,
-     912  48201,Aportaciones a Partidos Políticos,35000.0,,35000.0,30943.1
-     912  23300,Otras Indemnizaciones,50000.0,,50000.0,97879.94
-     912  22601,Atenciones protocolarias y representativas,20000.0,,20000.0,46162.57
-     912  22103,Combustibles y carburantes,3000.0,,3000.0,4151.53
-     912  23000,Dietas de Miembros de Órganos de Gobierno,12000.0,60000.0,72000.0,5270.23
-     912  23100,Locomoción de Miembros de Órganos de Gobierno,12000.0,,12000.0,3110.4
-     912  21400,"Reparación, man. y conserv. elementos de transport",5000.0,,5000.0,3782.81
-     912  16200,Formación y Perfeccionamiento del Personal,1000.0,,1000.0,350.0
-     912  22000,Ordinario no inventariable,1000.0,,1000.0,2534.98
-     912  11002,Otras remuneraciones.,1740.0,,1740.0,
-     912  22001,"Prensa, revistas, libros y otros",1000.0,,1000.0,2199.34
-     912  22401,Primas de seguros,2500.0,,2500.0,2670.01
-     912  22105,Productos alimenticios,4000.0,,4000.0,1176.37
-     912  10000,Retribuciones básicas ,630000.0,-105000.0,525000.0,485465.3
-     912  11000,Retribuciones básicas,108800.0,,108800.0,74878.6
-     912  16000,Seguridad Social,204000.0,-1115.65,202884.35,184439.77
-     912  22204,Telefónicas,10000.0,,10000.0,7273.68
-     419  62227,Casa del Vino,,192907.3,192907.3,
-     221  16204,Acción Social,100000.0,,100000.0,99822.07
-     221  16006,Asistencia Farma-Protésica según Convenio,100000.0,25000.0,125000.0,73201.07
-     221  16008,Asistencia Médico-Farmacéutica,300000.0,,300000.0,201355.0
-     221  16206,Bolsa Convenio Personal Municipal,260000.0,,260000.0,206306.63
-     221  16205,Seguros,77500.0,,77500.0,56228.47
-     171  22719,Ajardinamiento Parque de Cho-Parque de la Reina,48000.0,,48000.0,
-     171  20000,Arrendamientos de Terrenos y Bienes Naturales,27000.0,,27000.0,17478.09
-     171  22741,Servicio Mantenimiento Jardines Municipales,4483226.0,,4483226.0,4512967.62
-     924  22609,Actividades Partiicipación Ciudanana,23000.0,,23000.0,11642.09
-     924  12100,Complemento de destino,1700.0,,1700.0,
-     924  12101,Complemento específico,3000.0,,3000.0,
-     924  12102,Complemento de Residencia,500.0,,500.0,
-     924  23020,Dietas del personal no directivo,600.0,,600.0,
-     924  22000,Ordinario no inventariable,1000.0,,1000.0,
-     924  13100,Retribuciones personal temporal,40000.0,,40000.0,37670.11
-     924  22606,"Reuniones, conferencia y cursos",,,,2407.5
-     924  16000,Seguridad Social,15000.0,,15000.0,13701.41
-     924  12003,Sueldos del Grupo C1,2600.0,,2600.0,
-     1532  65004,Acondicionamiento de la Travesía de Guaza,,14495.48,14495.48,7579.18
-     1532  60944,"Baranda Protección C/Santa Rita - Abrigaño, Cabo B",,12900.0,12900.0,
-     1532  60901,Mejora de la accesibildad Avda. Chayofita,,1508.24,1508.24,
-     1532  60943,Obras Adecuación Conexión Vía Serv. Avda Chayofita,,6551.0,6551.0,
-     1532  60941,Obras Seguridad Zon Pública CC Apolo Los Cristiano,,56028.0,56028.0,
-     1532  60902,Obras en Arona Casco,,25934.85,25934.85,
-     1532  60942,Obras en Crta. Cruz del Guanche-La Sabinita PK 0+0,,15827.0,15827.0,
-     1532  60123,Plan de Accesibilidad,,10000.0,10000.0,
-     1532  21201,Reparación Calzada C/ México.,,6289.43,6289.43,6289.43
-     1532  22613,Señalizaciones Municipales,,,,858.8
-     1532  22713,Servicio de mantenimiento de vías y edificios,900000.0,,900000.0,38303.48
-     931  83101,Anticipo de pagas a personal,10.0,227200.0,227210.0,227200.0
-     931  83001,Anticipos por cuenta terceros,10.0,26268.01,26278.01,26268.01
-     931  20200,Arrendamientos de Edificios y otras Construcciones,10000.0,,10000.0,9646.3
-     931  23300,Otras indemnizaciones,,,,200.0
-     931  62207,Cámaras de seguridad Edificios Públicos,,3000.0,3000.0,
-     931  22103,Combustibles y carburantes,,,,672.11
-     931  12100,Complemento de destino,150000.0,,150000.0,105801.45
-     931  12101,Complemento especifico,270000.0,,270000.0,198863.86
-     931  12102,Complemento de Residencia,33000.0,,33000.0,22801.79
-     931  23020,Dietas del personal no directivo,1000.0,,1000.0,582.07
-     931  23120,Locomoción del personal no directivo,6000.0,,6000.0,912.46
-     931  35700,Ejecucion de avales,1000.0,,1000.0,
-     931  21400,Elementos de Transporte,,,,71.45
-     931  16200,Formación y Perfeccionamiento del Personal,1000.0,,1000.0,1000.0
-     931  31100,Gastos de formalización y cancelación,1000.0,,1000.0,
-     931  15100,Gratificaciones,1000.0,,1000.0,1051.37
-     931  35200,Intereses de demora Capitulo 6,100000.0,44115.65,144115.65,184200.0
-     931  35201,Intereses de demora Capitulo 2,100000.0,42000.0,142000.0,97573.75
-     931  34000,Intereses de depósitos,1000.0,,1000.0,
-     931  34100,Intereses de fianzas,1000.0,,1000.0,
-     931  35800,Intereses por operaciones de arrendamiento financi,1000.0,,1000.0,
-     931  22618,Intereses y Comisiones,90000.0,,90000.0,166444.18
-     931  62500,Mobiliario,2000.0,,2000.0,
-     931  22000,Ordinario no inventariable,1000.0,,1000.0,1006.95
-     931  13100,Retribuciones personal temporal,250000.0,,250000.0,235511.54
-     931  22001,"Prensa, revistas, libros y otros",3000.0,,3000.0,1579.69
-     931  15000,Productividad,6000.0,,6000.0,5816.08
-     931  21500,Repar. mant. y cons. Mobiliario,1000.0,,1000.0,
-     931  13000,Retribuciones básicas.,420000.0,,420000.0,367556.97
-     931  16000,Seguridad Social,400000.0,,400000.0,379553.03
-     931  22708,Servicios de Recaudación,1200000.0,,1200000.0,1451579.87
-     931  12000,Sueldos del Grupo A1,110000.0,,110000.0,117832.45
-     931  12003,Sueldos del Grupo C1,90000.0,,90000.0,55165.24
-     931  12004,Sueldos del Grupo C2,32000.0,,32000.0,68212.89
-     931  22501,Tributos de las Comunidades Autónomas,1000.0,,1000.0,
-     931  22502,Tributos de las Entidades Locales,1000.0,,1000.0,
-     931  22500,Tributos Estatales,1000.0,,1000.0,3714.42
-     931  12006,Trienios,45000.0,,45000.0,37882.37
-     334  20200,Arrendamiento de Edificios y otras construcciones,717455.0,777078.0,1494533.0,1494533.0
-     334  62207,Cámaras de seguridad Edificios Públicos,,13776.48,13776.48,
-     334  47903,Convenio Uso Cultural Instalaciones Casino Arona,9000.0,,9000.0,
-     341  22706,Estudios y trabajos técnicos,30000.0,-12000.0,18000.0,
-     135  12100,Complemento de destino,3900.0,,3900.0,
-     135  12101,Complemento especifico,6700.0,,6700.0,
-     135  12102,Complemento de Residencia,850.0,,850.0,
-     135  62400,Material de Transporte,50000.0,,50000.0,
-     135  16000,Seguridad Social,6000.0,,6000.0,
-     135  12000,Sueldos del Grupo A1,7200.0,,7200.0,
-     135  26001,Trabajos realizados por Protección Civil,150000.0,,150000.0,148613.66
-     311  20200,Arrendamientos de Edificios y otras contrucciones,21000.0,,21000.0,20706.39
-     311  22731,Control de Aves.,10800.0,,10800.0,761.26
-     311  22704,Recogida y acogida de animales.,60000.0,,60000.0,52476.78
-     311  22115,"Desinfectantes, raticidas",60000.0,,60000.0,46636.6
-     311  16200,Formación y Perfeccionamiento del Personal,600.0,,600.0,
-     311  22617,Promoción Sanidad y Consumo,,,,7684.53
-     311  22722,Recogida Animales Exóticos,3000.0,,3000.0,3000.0
-     311  13000,Retribuciones personal laboral fijo,36000.0,,36000.0,35886.14
-     311  16000,Seguridad Social,12000.0,,12000.0,11613.23
-     336  76200,Acto. Cueva Santo Hermano Pedro,,62000.0,62000.0,
-     336  22609,Actividades Socioculturales,6000.0,,6000.0,5021.7
-     336  48301,Convenio Archivo Diocesano,7000.0,,7000.0,
-     336  22706,Estudios y trabajos técnicos,35000.0,,35000.0,30168.49
-     1721  65913,Aseos y Duchas en Playas,,50000.0,50000.0,
-     1721  65914,Balizamiento Playas,,200000.0,200000.0,77917.4
-     1721  20900,Cánones,175000.0,,175000.0,171789.51
-     1721  22730,Mantenimiento Integral del Litoral,364365.0,,364365.0,361498.6
-     1721  62300,"Maquinaria, Instalaciones y Utillaje",,41139.99,41139.99,
-     1721  21000,"Reparaciones, man. y conserv. infraestructuras y b",1000.0,,1000.0,
-     1721  22736,Servicio de Vigilancia y Socorrismo en Playas,389190.0,,389190.0,205664.15
-     1721  48015,Subvención Fundación Neotrópico Preservación Lagar,3000.0,,3000.0,
-     1621  22709,Servicio Recogida RSU y Lim. Viaria,12512221.0,,12512221.0,12373206.86
-     1621  22710,Servicio Recogida de Papel Cartón,200000.0,,200000.0,246951.88
-     1621  22502,Tributos de las Entidades Locales,2300000.0,,2300000.0,2383186.23
-     452  60610,Inversiones en la Red de Agua,,2710363.12,2710363.12,7960.83
-     132  20400,Arrendamientos de Material de Transporte,150000.0,,150000.0,137913.36
-     132  20200,Arrendamientos de Edificios y Otras Construcciones,23000.0,,23000.0,22103.16
-     132  12100,Complemento de destino,700000.0,,700000.0,495665.76
-     132  12101,Complemento especifico,1350000.0,-160000.0,1190000.0,920004.35
-     132  12102,Complemento de Residencia,192000.0,,192000.0,143966.06
-     132  23020,Dietas del personal no directivo,1000.0,,1000.0,499.89
-     132  23120,Locomoción del personal no directivo,10000.0,,10000.0,8160.89
-     132  21400,Repar. conserv. y man. elementos de transporte,30000.0,,30000.0,23963.33
-     132  62603,Emisoras Policía Local,,133008.43,133008.43,2060.89
-     132  16200,Formación y Perfeccionamiento del Personal,1000.0,,1000.0,3815.58
-     132  15100,Gratificaciones,150000.0,37800.0,187800.0,147766.46
-     132  62300,"Maquinaria, Instalaciones y Utillaje",10000.0,,10000.0,
-     132  62400,Material de Transporte,9000.0,36000.0,45000.0,
-     132  62500,Mobiliario,10000.0,,10000.0,
-     132  13100,Retribuciones personal temporal,45000.0,,45000.0,35143.88
-     132  22728,Plan de Seguridad Integral Edificios Municipales,100000.0,,100000.0,
-     132  62604,Plan de Seguridad Integral Edificios Municipales,70000.0,,70000.0,
-     132  15000,Productividad,30000.0,38000.0,68000.0,107434.19
-     132  13000,Retribuciones personal laboral fijo,60000.0,,60000.0,44275.5
-     132  16000,Seguridad Social,1160000.0,,1160000.0,1270974.95
-     132  22717,Servicio de Grúa Municipal,,,,379992.51
-     132  12000,Sueldos del Grupo A1,7500.0,,7500.0,
-     132  12001,Sueldos del Grupo A2,60000.0,,60000.0,72216.57
-     132  12003,Sueldos del Grupo C1,1330000.0,-63000.0,1267000.0,1383852.85
-     132  12004,Sueldos del Grupo C2,8400.0,,8400.0,5904.77
-     132  12006,Trienios,165000.0,,165000.0,154759.7
-     326  22609,Actividades Culturales y Deportivas,25500.0,58140.0,83640.0,36305.13
-     326  48005,Ayuda Actividades Permanencia (APAS),11550.0,,11550.0,3850.0
-     326  48001,Becas de Transporte,96000.0,-35040.0,60960.0,60959.97
-     326  48003,Becas de Enseñanza Especial,55000.0,-7700.0,47300.0,46750.0
-     326  48002,Becas Enseñanza Universitaria,253000.0,-15400.0,237600.0,237600.0
-     326  21302,Mantenimiento de Ascensores,,,,1684.01
-     326  22714,Servicios Varios a Colegios,5000.0,,5000.0,
-     326  48006,Conv. Master Inter-Universitario Innovación,,12000.0,12000.0,12000.0
-     326  48004,Subvenciones APAS,16200.0,,16200.0,11700.0
-     491  76103,Convenio Ayto. Cabildo obras Fibra Óptica Mpal. ,300000.0,444043.08,744043.08,
-     943  46701,Aportación Consorcio de Incendios,776904.0,,776904.0,776903.81
-     4411  46101,Convenio Transporte Colectivo,138000.0,,138000.0,77642.0
-     4911  65012,Acto. Pisaj. Margen Izgdo. TF66 Fraile-Galletas,,40697.41,40697.41,
-     4911  62309,Cartelería Digital Interior Urban,,50800.0,50800.0,
-     4911  62267,Centro Cívico El Fraile,81650.0,32750.0,114400.0,81641.0
-     4911  62246,Centro Civico Las Galletas,540000.0,1429543.39,1969543.39,44833.13
-     4911  63207,Centro Empresarial Integrado,400000.0,164150.55,564150.55,9630.0
-     4911  62701,Creación Zonas Wi-Fi Zona Urban/Urban Arona 07-15,400000.0,,400000.0,118368.24
-     4911  23020,Dietas del personal no directivo,500.0,,500.0,341.22
-     4911  23120,Locomoción de Personal,500.0,300.0,800.0,864.54
-     4911  62508,Equipamiento del Centro Cívico El Fraile,,24423.44,24423.44,
-     4911  21501,Equimpamiento mobiliario edificios Urban.,100000.0,,100000.0,
-     4911  62600,Equipos para Procesos de Información,160000.0,34604.02,194604.02,14289.85
-     4911  22740,Estudios y Trabajos. Seguimiento Proyecto URBAN,20215.0,12000.0,32215.0,19250.0
-     4911  22706,Estudios y Trabajos técnicos,75000.0,148420.0,223420.0,42693.0
-     4911  16200,Formación y perfeccionamiento del personal,1000.0,,1000.0,
-     4911  22002,"Material Informático no inventariable, Urban 07-15",5000.0,,5000.0,
-     4911  60815,Parque Garañaña,,125406.62,125406.62,
-     4911  22733,Plan formativo empresarial C. empresarial Urban,10000.0,,10000.0,470.0
-     4911  62286,Proyecto Despliegue Fibra Optica Urban,,,,
-     4911  22628,Proyecto Las Galletas Capital del Buceo ,,76000.0,76000.0,
-     4911  62401,Proyecto Préstamo de Bicicletas y Carril 30,185351.0,78000.0,263351.0,
-     4911  22745,Proyecto Préstamo de Bicicletas y Carril 30,,20400.0,20400.0,9630.0
-     4911  22602,Publicidad y propaganda,,82683.62,82683.62,
-     4911  14301,Retribuciones personal afecto a programas,120000.0,-10000.0,110000.0,67272.28
-     4911  62616,Seguridad Integral Edificios mples. Zona Urban,170000.0,153842.48,323842.48,169092.24
-     4911  16000,Seguridad Social,40000.0,,40000.0,40664.53
-     4911  21901,"Señalética Parque Garañaña, Urban 07-15",30000.0,,30000.0,
-     4911  22732,Servicio Desarrollo Tecnnológico c. Empresarial,60000.0,,60000.0,20150.11
-     4911  22712,Servicio Mantenimiento Alumbrado Público- URBAN,,,,17981.02
-     4911  22744,Zona Comercial Abierta Las Galletas,,25000.0,25000.0,10593.0
-     151  62209,Adecuación  Instalaciones CPD Edificios Mples.,,6349.15,6349.15,
-     151  62205,Adecuación N.V. Instalaciones BT Edificios público,,988000.0,988000.0,
-     151  60000,Adquisición de Terrenos,,8569848.26,8569848.26,
-     151  60139,Alumbrado Público en Valle San Lorenzo,,77540.0,77540.0,
-     151  60911,Centro Civico y Plaza la Camella,,24128.78,24128.78,
-     151  60201,Centro de Transformación Arona Casco,,673615.09,673615.09,
-     151  65011,Conexión peatonal Montaña Fría- Arona Casco,20000.0,,20000.0,
-     151  60104,Gutinado del Solar Municipal C/Duque de la Torre,,1103.97,1103.97,
-     151  22118,Mobiliario Urbano No Inventariable,15000.0,,15000.0,
-     151  60806,Parques Infantiles,,200000.0,200000.0,
-     151  60135,Plan de Barrios,,350948.56,350948.56,
-     151  61104,"Rehab. Barrio Nuevo, C/Noruega y Explanada Los Cri",,,,
-     151  60905,Rehabilitación e Ilum. Ext. Sala Multiusos Los Cri,,1636.14,1636.14,
-     151  60124,Remodelación Plaza de Las Galletas,53105.0,,53105.0,53104.02
-     151  65008,Urbanización en superficie Barranquera Espadal VSL,,210000.0,210000.0,
-     155  21000,"Reparaciones, mant. y conserv. instraestruc. y B.N",1000.0,,1000.0,
-     155  22613,Señalizaciones Municipales,25000.0,,25000.0,14988.11
-,,,,,
-#,TOTALES,88478924.0,21125531.7,109604455.7,80143095.74
+#Partida,,,,Ppto. Inicial,Ppto. Definitivo,Retenciones,Autorizado,Disponible,Dispuesto,Obligación,ME,Pago
+1 0100.120.01.130.00 2015,,3,RETRIBUCIONES BASICAS,139377.29,139377.29,,114168.34,25208.95,114168.34,114168.34,114168.34,114168.34
+1 0100.120.01.132.00 2015,,13,RETRIBUCIONES BASICAS,238372.29,238372.29,,246896.59,-8524.3,246896.59,246896.59,246896.59,246896.59
+1 0100.120.01.133.10 2015,,19,RETRIBUCIONES BASICAS,166828.7,166828.7,,167531.32,-702.62,167531.32,167531.32,167531.32,167531.32
+1 0100.121.05.130.00 2015,,591,OTRAS REMUNERACIONES,,5358.54,,5358.54,,5358.54,5358.54,5358.54,5358.54
+1 0100.121.05.132.00 2015,,592,OTRAS REMUNERACIONES,,11061.4,,11061.4,,11061.4,11061.4,11061.4,11061.4
+1 0100.121.05.133.10 2015,,593,OTRAS REMUNERACIONES,,7397.42,,7397.42,,7397.42,7397.42,7397.42,7397.42
+1 0100.121.99.130.00 2015,,4,COMPLEMENTOS VARIOS,311643.3,311643.3,,262915.74,48727.56,262915.74,262915.74,262915.74,262915.74
+1 0100.121.99.132.00 2015,,14,COMPLEMENTOS VARIOS,535560.91,535560.91,,557106.55,-21545.64,557106.55,557106.55,557106.55,557106.55
+1 0100.121.99.133.10 2015,,20,COMPLEMENTOS VARIOS,357135.03,357135.03,,359853.92,-2718.89,359853.92,359853.92,359853.92,359853.92
+1 0100.160.01.130.00 2015,,5,SEGURIDAD SOCIAL,142785.43,142785.43,,119406.63,23378.8,119406.63,119406.63,119406.63,119406.63
+1 0100.160.01.132.00 2015,,15,SEGURIDAD SOCIAL,242279.0,242279.0,,243741.79,-1462.79,243741.79,243741.79,243741.79,243741.79
+1 0100.160.01.133.10 2015,,21,SEGURIDAD SOCIAL,163106.51,163106.51,,154947.24,8159.27,154947.24,154947.24,154947.24,154947.24
+1 0100.160.04.130.00 2015,,6,CUOTAS ELKARKIDETZA,10223.64,10223.64,,9736.8,486.84,9736.8,9736.8,9736.8,9736.8
+1 0100.160.04.132.00 2015,,16,CUOTAS ELKARKIDETZA,17607.38,17607.38,,17891.23,-283.85,17891.23,17891.23,17891.23,17891.23
+1 0100.160.04.133.10 2015,,22,CUOTAS ELKARKIDETZA,11927.58,11927.58,,11968.29,-40.71,11968.29,11968.29,11968.29,11968.29
+1 0100.212.01.132.00 2015,,17,MAQUIN/INSTAL/UTILL.MANTTO.ALARMAS,8000.0,8000.0,,7654.78,345.22,7654.78,7654.78,7654.78,7654.78
+1 0100.212.01.132.00 2014,,498,"MAQ., INST. Y UTILLAJ. MANTTO. ALARMAS",,681.47,,,681.47,,,,
+1 0100.213.01.130.00 2015,,7,MATERIAL DE TRANSPORTE,13000.0,13000.0,,13051.01,-51.01,13051.01,11953.98,11953.98,11953.98
+1 0100.221.04.130.00 2015,,8,COMBUSTIBLES Y CARBURANTES,11000.0,11000.0,,7808.73,3191.27,7808.73,7808.73,7808.73,7808.73
+1 0100.221.05.130.00 2015,,9,VESTUARIO,30600.0,30600.0,,23395.85,7204.15,23395.85,7775.57,7775.57,7775.57
+1 0100.221.99.130.00 2015,,10,OTROS SUMINISTROS,9270.0,9270.0,,9333.54,-63.54,9333.54,8452.5,8452.5,8452.5
+1 0100.224.02.130.00 2015,,11,DE VEHICULOS. SEGUROS,2700.0,2700.0,,1490.43,1209.57,1490.43,1490.43,1490.43,1490.43
+1 0100.226.99.132.00 2015,,586,OTROS GASTOS DIVERSOS SEGURIDAD,,3000.0,,774.4,2225.6,774.4,774.4,774.4,774.4
+1 0100.226.99.133.10 2015,,23,OTROS GASTOS DIVERSOS. EDUCACION VIAL,1800.0,1800.0,,,1800.0,,,,
+1 0100.227.08.441.10 2015,,363,CONTRATOS TRANSPORTE,199262.0,199262.0,,190271.43,8990.57,190271.43,190271.43,190271.43,190271.43
+1 0100.227.99.133.10 2015,,24,OTROS TRABAJOS EXTERIORES. GRUA,115000.0,115000.0,,82688.94,32311.06,82688.94,82688.94,82688.94,82688.94
+1 0100.230.01.130.00 2015,,12,DIETAS/LOCOMOC/TRASLADO PERSONAL,100.0,100.0,,164.26,-64.26,164.26,164.26,164.26,164.26
+1 0100.230.01.132.00 2015,,18,DIETAS/LOCOMOC/TRASLADO PERSONAL,100.0,100.0,,271.7,-171.7,271.7,271.7,271.7,271.7
+1 0100.230.01.133.10 2015,,25,DIETAS/LOCOMOC/TRASLADO PERSONAL,100.0,100.0,,202.86,-102.86,202.86,202.86,202.86,202.86
+1 0100.421.03.441.10 2015,,364,CONSORC.AUTORID.TERRITOR.TTE GIPUZKOA,6833.0,6833.0,,4524.58,2308.42,4524.58,4524.58,4524.58,4524.58
+1 0100.625.02.130.00 2015,,585,EQUIPOS POLICIA MUNICIPAL,,1135.39,,1135.39,,1135.39,1135.39,1135.39,1135.39
+1 0200.120.01.151.00 2015,,32,RETRIBUCIONES BASICAS,113283.56,113283.56,,102004.68,11278.88,102004.68,102004.68,102004.68,102004.68
+1 0200.121.05.151.00 2015,,594,OTRAS REMUNERACIONES,,5532.51,,5532.51,,5532.51,5532.51,5532.51,5532.51
+1 0200.121.99.151.00 2015,,33,COMPLEMENTOS VARIOS,204474.16,204474.16,,212719.45,-8245.29,212719.45,212719.45,212719.45,212719.45
+1 0200.130.03.151.00 2015,,34,REMUNERACIONES PERSONAL LABORAL FIJO,30386.7,30386.7,,,30386.7,,,,
+1 0200.131.01.151.00 2015,,578,LABORAL EVENTUAL,,,,31847.1,-31847.1,31847.1,31847.1,31847.1,31847.1
+1 0200.131.02.151.00 2015,,628,OTRAS REMUMERACIONES,,584.32,,584.32,,584.32,584.32,584.32,584.32
+1 0200.160.01.151.00 2015,,35,SEGURIDAD SOCIAL,82897.54,82897.54,,89051.45,-6153.91,89051.45,89051.45,89051.45,89051.45
+1 0200.160.04.151.00 2015,,36,CUOTAS ELKARKIDETZA,6115.34,6115.34,,9693.46,-3578.12,9693.46,9693.46,9693.46,9693.46
+1 0200.200.01.172.00 2015,,112,TERRENOS/BIENES NATURAL.ARRENDAM.,500.0,500.0,,491.0,9.0,491.0,491.0,491.0,491.0
+1 0200.226.03.152.20 2015,,568,PUBLICIDAD Y PROPAGANDA,10000.0,10000.0,,,10000.0,,,,
+1 0200.226.90.152.20 2015,,37,OTROS GTOS REHAB.ENERG.EDIFIC.J.A.MOGEL,30000.0,30000.0,,,30000.0,,,,
+1 0200.226.99.151.00 2015,,38,OTROS GASTOS DIVERSOS. EJECUC.SUBSID.,12000.0,12000.0,,3601.69,8398.31,3601.69,3601.69,3601.69,3601.69
+1 0200.226.99.172.00 2015,,113,OTROS GASTOS DIVERSOS,16000.0,16000.0,,13932.3,2067.7,13932.3,13932.3,13932.3,13932.3
+1 0200.226.99.172.00 2014,,524,OTROS GASTOS DIVERSOS,,11727.02,,,11727.02,,,,
+1 0200.227.07.151.00 2015,,39,ESTUDIOS Y TRABAJOS TECNICOS,18000.0,18000.0,,13576.2,4423.8,13576.2,,,
+1 0200.227.07.172.00 2015,,114,ESTUD/TRAB.TECNIC.CONTR.CALID.SUEL.AZIT.,5000.0,5000.0,,2854.09,2145.91,2854.09,2854.09,2854.09,2854.09
+1 0200.227.07.172.00 2014,,526,EST.Y TR.TECN.CONT.SUEL.CONTAM.AZITAIN,,1222.1,,1222.1,,1222.1,1222.1,1222.1,1222.1
+1 0200.227.90.151.00 2015,,40,TRABAJOS EXTERNOS. ESTUDIOS Y PROYECTOS,70000.0,52000.0,50000.0,1815.0,185.0,1815.0,1815.0,1815.0,1815.0
+1 0200.227.90.151.00 2014,,506,ESTUDIO SUELOS CONTAMINADOS,,17908.0,,17908.0,,17908.0,17908.0,17908.0,17908.0
+1 0200.227.99.151.00 2015,,41,CONTRATOS EXTERNOS. MEDICIONES,3000.0,3000.0,,,3000.0,,,,
+1 0200.227.99.172.00 2015,,115,OTR.TRAB.EXTER.REDAC.PL.ESPEC.ARRATE,25000.0,43000.0,,43000.0,,,,,
+1 0200.230.01.151.00 2015,,42,DIETAS/LOCOMOC/TRASLADO PERSONAL,100.0,100.0,,637.87,-537.87,637.87,637.87,637.87,637.87
+1 0200.433.01.152.11 2015,,590,"TRANSFER. A IMESA, SA",,1940.81,,1940.81,,1940.81,1940.81,1940.81,1940.81
+1 0200.480.01.152.20 2015,,44,A FAMILIAS. MANTTO.ASCENSORES ZONALES,28000.0,28000.0,,21433.39,6566.61,21433.39,21433.39,21433.39,21433.39
+1 0200.480.01.152.30 2015,,569,A FAMILIAS,50000.0,50000.0,,,50000.0,,,,
+1 0200.481.02.172.00 2015,,116,IHOBE.CUOTA ANUAL UDALSAREA,1000.0,1000.0,,,1000.0,,,,
+1 0200.643.01.172.00 2015,,570,"INVESTIG, ESTUDIOS Y PROYECTOS",56000.0,56000.0,,17998.75,38001.25,17998.75,,,
+1 0200.780.01.152.20 2011,,513,REHABILIT.INTEGRAL J.A. MOGEL,,154921.72,,154921.72,,154921.7,126495.7,126495.7,126495.7
+1 0200.780.02.152.20 2015,,45,A FAMILIAS. REHAB.FACHADAS/ASCENSORES,200000.0,200000.0,,198052.28,1947.72,198052.28,198052.28,198052.28,198052.28
+1 0200.780.03.152.20 2015,,43,A FAMIL.REHAB.ENERGET.EDIF.J.A.MOGEL,133200.0,133200.0,,133200.0,,133200.0,133200.0,133200.0,133200.0
+1 0200.780.03.152.20 2014,,514,SUBV.REHAB.ENERGET.EDIFIC. J.A.MOGEL,,106560.0,,106560.0,,106560.0,106560.0,106560.0,106560.0
+1 0300.120.01.153.20 2015,,46,RETRIBUCIONES BASICAS,110523.08,110523.08,,109934.11,588.97,109934.11,109934.11,109934.11,109934.11
+1 0300.121.05.153.20 2015,,595,OTRAS REMUNERACIONES,,6366.91,,6366.91,,6366.91,6366.91,6366.91,6366.91
+1 0300.121.99.153.20 2015,,47,COMPLEMENTOS VARIOS,225973.38,225973.38,,225197.43,775.95,225197.43,225197.43,225197.43,225197.43
+1 0300.160.01.153.20 2015,,48,SEGURIDAD SOCIAL,92842.14,92842.14,,88123.41,4718.73,88123.41,88123.41,88123.41,88123.41
+1 0300.160.04.153.20 2015,,49,CUOTAS ELKARKIDETZA,7499.94,7499.94,,7499.94,,7499.94,7499.94,7499.94,7499.94
+1 0300.230.01.153.20 2015,,50,DIETAS/LOCOMOC/TRASLADO PERSONAL,100.0,100.0,,234.58,-134.58,234.58,234.58,234.58,234.58
+1 0300.601.07.153.20 2015,,51,ERREBAL,500000.0,500000.0,,500000.0,,5868.5,5868.5,5868.5,5868.5
+1 0300.601.08.153.20 2015,,52,MEJORA ENTORNOS URBANOS,1805000.0,1533572.89,,1462276.87,71296.02,940601.38,186108.07,186108.07,186108.07
+1 0300.601.09.153.20 2015,,53,REURBANIZAC.PARQUE INFERIOR DE TXOMO,757098.0,757098.0,,654311.19,102786.81,654311.19,652767.42,652767.42,652767.42
+1 0300.601.09.153.20 2014,,507,REURBANIZ. PARQUE INFERIOR DE TXOMO,,132902.0,,132902.0,,132902.0,132902.0,132902.0,132902.0
+1 0300.601.10.153.40 2015,,74,REFORM.VESTUARIOS/OFIC.BRIG.TORREKUA,100000.0,100000.0,,91764.15,8235.85,91764.15,90999.43,90999.43,90999.43
+1 0300.601.14.153.20 2015,,54,OBRAS MENORES,504606.0,636391.83,,630632.77,5759.06,505883.79,320426.13,320426.13,320426.13
+1 0300.601.14.153.20 2014,,508,OBRAS MENORES,,132223.65,,109597.2,22626.45,109597.2,109597.2,109597.2,109597.2
+1 0300.601.17.134.00 2015,,31,ACCESIBILIDAD,585000.0,585000.0,,579949.58,5050.42,576969.35,434862.61,434862.61,434862.61
+1 0300.601.17.153.20 2014,,509,ACCESIBILIDAD,,214.22,,214.22,,214.22,214.22,214.22,214.22
+1 0300.601.21.323.00 2015,,198,OBRAS MENORES EN CENTROS DE ENSEÑANZA,49000.0,49000.0,,40899.45,8100.55,40899.45,40899.45,40899.45,40899.45
+1 0300.601.23.153.20 2015,,55,ASFALTADOS,20000.0,22900.0,,22883.99,16.01,22883.99,22883.99,22883.99,22883.99
+1 0300.601.23.153.20 2014,,510,ASFALTADOS,,140953.99,,136088.45,4865.54,136088.45,136088.45,136088.45,136088.45
+1 0300.601.54.153.20 2015,,642,URBANIZACION TIBURZIO ANITUA,,16922.66,,16593.98,328.68,16593.98,16593.98,16593.98,16593.98
+1 0300.601.54.153.20 2014,,511,URBANIZACION TIBURZIO ANITUA,,233532.28,,233532.28,,233532.28,231838.28,231838.28,231838.28
+1 0300.643.01.153.20 2015,,56,INVESTIGACIONES/ESTUDIOS Y PROYECTOS,177150.0,306119.36,,218146.78,87972.58,209858.28,84896.64,84896.64,84896.64
+1 0300.643.01.153.20 2014,,512,"INVESTIGACIONES, ESTUDIOS Y PROYECTOS",,235010.67,,214827.39,20183.28,214827.39,214827.39,214827.39,214827.39
+1 0300.714.02.153.20 2015,,57,COBERTURA TRAZADO FERROVIARIO EN EIBAR,400000.0,400000.0,,400000.0,,400000.0,400000.0,400000.0,400000.0
+1 0400.120.01.153.40 2015,,61,RETRIBUCIONES BASICAS,58158.39,58158.39,,58179.08,-20.69,58179.08,58179.08,58179.08,58179.08
+1 0400.120.01.165.00 2015,,91,RETRIBUCIONES BASICAS,10881.18,10881.18,,10881.18,,10881.18,10881.18,10881.18,10881.18
+1 0400.121.05.153.40 2015,,596,OTRAS REMUNERACIONES,,3074.13,,3074.13,,3074.13,3074.13,3074.13,3074.13
+1 0400.121.05.165.00 2015,,597,OTRAS REMUMERACIONES,,664.42,,664.42,,664.42,664.42,664.42,664.42
+1 0400.121.99.153.40 2015,,62,COMPLEMENTOS VARIOS,137110.09,137110.09,,143047.24,-5937.15,143047.24,143047.24,143047.24,143047.24
+1 0400.121.99.165.00 2015,,92,COMPLEMENTOS VARIOS,26542.48,26542.48,,26360.08,182.4,26360.08,26360.08,26360.08,26360.08
+1 0400.130.01.164.00 2015,,81,RETRIBUCIONES BASICAS,28491.74,28491.74,,,28491.74,,,,
+1 0400.130.01.165.00 2015,,93,RETRIBUCIONES BASICAS,73562.24,73562.24,,,73562.24,,,,
+1 0400.130.02.153.40 2015,,618,OTRAS REMUMERACIONES,,7118.09,,7118.09,,7118.09,7118.09,7118.09,7118.09
+1 0400.130.02.164.00 2015,,619,OTRAS REMUMERACIONES,,521.79,,521.79,,521.79,521.79,521.79,521.79
+1 0400.130.02.165.00 2015,,620,OTRAS REMUMERACIONES,,1301.5,,1301.5,,1301.5,1301.5,1301.5,1301.5
+1 0400.130.02.171.00 2015,,621,OTRAS REMUMERACIONES,,1991.08,,1991.08,,1991.08,1991.08,1991.08,1991.08
+1 0400.130.02.323.00 2015,,622,OTRAS REMUMERACIONES,,2243.21,,2243.21,,2243.21,2243.21,2243.21,2243.21
+1 0400.130.02.920.40 2015,,623,OTRAS REMUMERACIONES,,1357.65,,1357.65,,1357.65,1357.65,1357.65,1357.65
+1 0400.130.03.153.40 2015,,63,REMUNERACIONES PERSONAL LABORAL FIJO,410042.56,410042.56,,404901.53,5141.03,404901.53,404901.53,404901.53,404901.53
+1 0400.130.03.164.00 2015,,579,REMUN.PERSONAL LABORAL FIJO,,,,27135.37,-27135.37,27135.37,27135.37,27135.37,27135.37
+1 0400.130.03.165.00 2015,,580,REMUN.PERSONAL LABORAL FIJO,,,,73379.84,-73379.84,73379.84,73379.84,73379.84,73379.84
+1 0400.130.03.171.00 2015,,102,REMUNERACIONES PERSONAL LABORAL FIJO,114584.42,114584.42,,115218.18,-633.76,115218.18,115218.18,115218.18,115218.18
+1 0400.130.03.323.00 2015,,188,REMUNERACIONES PERSONAL LABORAL FIJO,122390.29,122390.29,,128576.27,-6185.98,128576.27,128576.27,128576.27,128576.27
+1 0400.130.03.920.40 2015,,433,REMUNERACIONES PERSONAL LABORAL FIJO,100621.61,100621.61,,79731.34,20890.27,79731.34,79731.34,79731.34,79731.34
+1 0400.131.01.153.40 2015,,64,LABORAL EVENTUAL,154801.42,154801.42,,167004.97,-12203.55,167004.97,167004.97,167004.97,167004.97
+1 0400.131.01.164.00 2015,,82,LABORAL EVENTUAL,47580.3,47580.3,,65329.82,-17749.52,65329.82,65329.82,65329.82,65329.82
+1 0400.131.01.165.00 2015,,589,LABORAL EVENTUAL,,,,13451.31,-13451.31,13451.31,13451.31,13451.31,13451.31
+1 0400.131.01.171.00 2015,,103,LABORAL EVENTUAL,50735.16,50735.16,,48386.96,2348.2,48386.96,48386.96,48386.96,48386.96
+1 0400.131.01.323.00 2015,,643,LABORAL EVENTUAL,,,,2689.18,-2689.18,2689.18,2689.18,2689.18,2689.18
+1 0400.131.01.920.40 2015,,581,LABORAL EVENTUAL,,,,3998.49,-3998.49,3998.49,3998.49,3998.49,3998.49
+1 0400.131.02.153.40 2015,,629,OTRAS REMUMERACIONES,,2500.24,,2500.24,,2500.24,2500.24,2500.24,2500.24
+1 0400.131.02.164.00 2015,,630,OTRAS REMUMERACIONES,,669.27,,669.27,,669.27,669.27,669.27,669.27
+1 0400.131.02.171.00 2015,,631,OTRAS REMUMERACIONES,,560.14,,560.14,,560.14,560.14,560.14,560.14
+1 0400.160.01.153.40 2015,,65,SEGURIDAD SOCIAL,258349.65,258349.65,,254152.21,4197.44,254152.21,254152.21,254152.21,254152.21
+1 0400.160.01.164.00 2015,,83,SEGURIDAD SOCIAL,27692.51,27692.51,,18394.43,9298.08,18394.43,18394.43,18394.43,18394.43
+1 0400.160.01.165.00 2015,,94,SEGURIDAD SOCIAL,41992.99,41992.99,,47086.25,-5093.26,47086.25,47086.25,47086.25,47086.25
+1 0400.160.01.171.00 2015,,104,SEGURIDAD SOCIAL,57480.42,57480.42,,48201.32,9279.1,48201.32,48201.32,48201.32,48201.32
+1 0400.160.01.323.00 2015,,189,SEGURIDAD SOCIAL,41915.56,41915.56,,44504.48,-2588.92,44504.48,44504.48,44504.48,44504.48
+1 0400.160.01.920.40 2015,,434,SEGURIDAD SOCIAL,35588.3,35588.3,,27793.82,7794.48,27793.82,27793.82,27793.82,27793.82
+1 0400.160.04.153.40 2015,,66,CUOTAS ELKARKIDETZA,14428.68,14428.68,,19368.12,-4939.44,19368.12,19368.12,19368.12,19368.12
+1 0400.160.04.164.00 2015,,84,CUOTAS ELKARKIDETZA,949.48,949.48,,949.48,,949.48,949.48,949.48,949.48
+1 0400.160.04.165.00 2015,,95,CUOTAS ELKARKIDETZA,2848.44,2848.44,,2848.44,,2848.44,2848.44,2848.44,2848.44
+1 0400.160.04.171.00 2015,,105,CUOTAS ELKARKIDETZA,949.48,949.48,,1898.96,-949.48,1898.96,1898.96,1898.96,1898.96
+1 0400.160.04.323.00 2015,,190,CUOTAS ELKARKIDETZA,2848.44,2848.44,,2848.44,,2848.44,2848.44,2848.44,2848.44
+1 0400.160.04.920.40 2015,,435,CUOTAS ELKARKIDETZA,4747.4,4747.4,,3865.74,881.66,3865.74,3865.74,3865.74,3865.74
+1 0400.210.01.153.40 2015,,67,INFRAESTRUCTURA Y BIENES NATURALES,125000.0,125000.0,,108393.01,16606.99,108393.01,96243.29,96243.29,96243.29
+1 0400.210.01.153.40 2014,,515,INFRAESTRUCTURA Y BIENES NATURALES,,3425.65,,719.92,2705.73,719.92,719.92,719.92,719.92
+1 0400.210.01.454.00 2015,,367,INFRAESTRUCTURA Y BIENES NATURALES,81000.0,81000.0,,67225.62,13774.38,67225.62,64041.69,64041.69,64041.69
+1 0400.211.01.323.00 2015,,191,EDIFIC/OTRAS CONSTRUCCIONES. MANTTO.,36000.0,36000.0,,40414.4,-4414.4,40414.4,39113.65,39113.65,39113.65
+1 0400.211.01.323.00 2014,,517,EDIF. Y OTR.CONST.MANTENIMIENTO,,19157.86,,18968.86,189.0,18968.86,18968.86,18968.86,18968.86
+1 0400.211.01.333.10 2015,,226,EDIFICIOS Y OTRAS CONSTRUCCIONES,8000.0,11000.0,,10625.67,374.33,10625.67,10330.67,10330.67,10330.67
+1 0400.211.01.333.10 2014,,530,EDIF. Y OTR.CONST.MANTTO. COLISEO,,2188.51,,,2188.51,,,,
+1 0400.211.01.333.20 2015,,233,EDIFICIOS Y OTRAS CONSTRUCCIONES,16000.0,22500.0,,21523.57,976.43,21523.57,21523.57,21523.57,21523.57
+1 0400.211.01.920.40 2015,,436,EDIFICIOS Y OTRAS CONSTRUCCIONES,41000.0,41000.0,,57859.23,-16859.23,57859.23,50699.58,50699.58,50699.58
+1 0400.211.01.920.40 2014,,516,EDIF. Y OTR.CONST.MANTENIMIENTO,,12550.99,,9112.65,3438.34,9112.65,9112.65,9112.65,9112.65
+1 0400.212.01.134.00 2015,,28,MAQUINARIA/INSTALAC/UTILLAJE. MANTTO,301000.0,301000.0,,256064.04,44935.96,256064.04,251290.59,251290.59,251290.59
+1 0400.212.01.163.00 2015,,77,MAQUINARIA/INSTALAC/UTILLAJE,6180.0,6180.0,,5342.05,837.95,5342.05,5342.05,5342.05,5342.05
+1 0400.212.01.164.00 2015,,85,MAQUIN/INSTAL/UTILLAJE.MANTTO,20000.0,20000.0,,11879.39,8120.61,11879.39,11879.39,11879.39,11879.39
+1 0400.212.01.165.00 2015,,96,MAQUIN/INSTALAC/UTILLAJE.MANTTO,41200.0,57200.0,,54429.51,2770.49,54429.51,54429.51,54429.51,54429.51
+1 0400.212.01.165.00 2014,,518,"MAQ., INST. Y UTILLAJ. MANTTO.",,11917.96,,10733.18,1184.78,10733.18,10733.18,10733.18,10733.18
+1 0400.212.01.171.00 2015,,106,MAQUINARIA/INSTALAC/UTILLAJE,8000.0,8000.0,,3085.82,4914.18,3085.82,3085.82,3085.82,3085.82
+1 0400.212.01.323.00 2015,,192,"MAQUINARIA, INSTALACIONES Y UTILLAJE",26810.0,26810.0,,8180.08,18629.92,8180.08,8180.08,8180.08,8180.08
+1 0400.212.01.920.40 2015,,437,"MAQUINARIA, INSTALACIONES Y UTILLAJE",49000.0,55200.0,,42145.88,13054.12,42145.88,41284.05,41284.05,41284.05
+1 0400.213.01.153.40 2015,,68,MATERIAL DE TRANSPORTE. MANTENIMIENTO,17510.0,25510.0,,23961.59,1548.41,23961.59,21156.35,21156.35,21156.35
+1 0400.221.01.134.00 2015,,29,ENERGIA ELECTRICA,91711.0,91711.0,,76145.48,15565.52,76145.48,76145.48,76145.48,76145.48
+1 0400.221.01.165.00 2015,,97,ENERGIA ELECTRICA,378000.0,378000.0,,311499.73,66500.27,311499.73,311499.73,311499.73,311499.73
+1 0400.221.01.323.00 2015,,193,ENERGIA ELECTRICA,110000.0,110000.0,,100534.41,9465.59,100534.41,100534.41,100534.41,100534.41
+1 0400.221.01.333.10 2015,,228,ENERGIA ELECTRICA,16400.0,21400.0,,19827.98,1572.02,19827.98,19827.98,19827.98,19827.98
+1 0400.221.01.333.20 2015,,234,ENERGIA ELECTRICA,51000.0,56000.0,,56005.76,-5.76,56005.76,56005.76,56005.76,56005.76
+1 0400.221.01.920.40 2015,,438,ENERGIA ELECTRICA,139000.0,139000.0,,66499.57,72500.43,66499.57,66499.57,66499.57,66499.57
+1 0400.221.02.920.40 2015,,439,AGUA,65624.0,65624.0,,80549.64,-14925.64,80549.64,80549.64,80549.64,80549.64
+1 0400.221.04.153.40 2015,,69,COMBUSTIBLES Y CARBURANTES VEHICULOS,22000.0,22000.0,,17205.76,4794.24,17205.76,17205.76,17205.76,17205.76
+1 0400.221.04.163.00 2015,,78,COMBUSTIBLES Y CARBURANTES,4000.0,4000.0,,1289.04,2710.96,1289.04,1289.04,1289.04,1289.04
+1 0400.221.04.323.00 2015,,194,COMBUSTIBLES Y CARBURANTES,85000.0,85000.0,,58647.34,26352.66,58647.34,58647.34,58647.34,58647.34
+1 0400.221.04.333.10 2015,,229,COMBUSTIBLES Y CARBURANTES,15000.0,15000.0,,12178.1,2821.9,12178.1,12178.1,12178.1,12178.1
+1 0400.221.04.333.20 2015,,235,COMBUSTIBLES Y CARBURANTES,20000.0,20000.0,,19871.04,128.96,19871.04,19871.04,19871.04,19871.04
+1 0400.221.04.920.40 2015,,440,COMBUSTIBLES Y CARBURANTES,47000.0,47000.0,,23028.42,23971.58,23028.42,23028.42,23028.42,23028.42
+1 0400.221.05.153.40 2015,,70,VESTUARIO,12500.0,12500.0,,10191.67,2308.33,10191.67,10191.67,10191.67,10191.67
+1 0400.221.05.164.00 2015,,86,VESTUARIO,1500.0,1500.0,,1409.35,90.65,1409.35,1409.35,1409.35,1409.35
+1 0400.221.05.323.00 2015,,195,VESTUARIO,1545.0,1545.0,,375.1,1169.9,375.1,375.1,375.1,375.1
+1 0400.221.05.920.40 2015,,441,VESTUARIO,1500.0,1500.0,,506.01,993.99,506.01,506.01,506.01,506.01
+1 0400.221.09.920.40 2015,,442,PRODUCTOS DE LIMPIEZA Y ASEO,15000.0,15000.0,,7005.92,7994.08,7005.92,7005.92,7005.92,7005.92
+1 0400.221.96.153.30 2015,,58,MANTENIMIENTO URBANO,46500.0,46500.0,,34819.0,11681.0,34819.0,33428.0,33428.0,33428.0
+1 0400.221.96.153.30 2014,,519,MANTENIMIENTO URBANO,,22446.95,,22446.95,,22446.95,22446.95,22446.95,22446.95
+1 0400.221.96.442.00 2015,,365,MANTENIMIENTO.MARQUESINAS,5000.0,2000.0,,922.63,1077.37,922.63,922.63,922.63,922.63
+1 0400.221.99.133.20 2015,,26,OTROS SUM.(SEMAFOROS/SEÑALES/HITOS),20000.0,20000.0,,18530.98,1469.02,18530.98,18530.98,18530.98,18530.98
+1 0400.221.99.133.20 2014,,521,OTROS SUMINISTROS. SEMAFOR. Y SEÑALES,,3397.77,,3283.73,114.04,3283.73,3283.73,3283.73,3283.73
+1 0400.221.99.171.00 2015,,107,OTROS SUMINISTROS,60000.0,60000.0,,49781.64,10218.36,49781.64,37587.85,37587.85,37587.85
+1 0400.221.99.171.00 2014,,520,OTROS SUMINISTROS.,,657.03,,379.5,277.53,379.5,379.5,379.5,379.5
+1 0400.222.01.920.40 2015,,443,TELEFONICAS,60000.0,60000.0,,49201.33,10798.67,49201.33,44777.45,44777.45,44777.45
+1 0400.222.01.920.40 2014,,522,TELEFONICAS,,3998.98,,3998.98,,3998.98,3998.98,3998.98,3998.98
+1 0400.224.01.920.40 2015,,444,DE EDIFICIOS Y LOCALES.SEGUROS,54320.3,54320.3,,52539.65,1780.65,52539.65,52539.65,52539.65,52539.65
+1 0400.224.02.153.40 2015,,71,DE VEHICULOS. SEGUROS,8000.0,8000.0,,7896.76,103.24,7896.76,7896.76,7896.76,7896.76
+1 0400.225.02.425.00 2015,,339,TRIBUTOS DEL TERRITORIO HISTORICO,5000.0,5000.0,,1765.56,3234.44,1765.56,1765.56,1765.56,1765.56
+1 0400.226.80.153.40 2015,,584,GASTOS ALMACEN BRIGADA EN TEKNIKER,,46249.26,,46249.26,,46249.26,46249.26,46249.26,46249.26
+1 0400.226.99.153.40 2015,,72,"ENGANCHES/CONS.FESTEJ-FERIAS,ETC.",15100.0,17100.0,,17869.97,-769.97,17869.97,17869.97,17869.97,17869.97
+1 0400.226.99.153.40 2014,,523,OTR.GAST.DIV. TRASL.ALMACEN BRIGADA,,38807.76,,37510.07,1297.69,37510.07,37510.07,37510.07,37510.07
+1 0400.226.99.165.00 2015,,98,OTROS GTOS DIV.INSPECC.ORGAN.CONTROL,34235.0,37235.0,,34064.61,3170.39,34064.61,33834.72,33834.72,33834.72
+1 0400.226.99.171.00 2015,,108,OTR.GTOS DIV.DESBR.TALUDES/AJARDINAM.,60000.0,60000.0,,59289.94,710.06,59289.94,59289.94,59289.94,59289.94
+1 0400.227.01.134.00 2015,,30,LIMPIEZA,35000.0,35000.0,,32752.8,2247.2,32752.8,32752.8,32752.8,32752.8
+1 0400.227.01.153.30 2015,,59,LIMPIEZA,17969.0,17969.0,,13480.56,4488.44,13480.56,13480.56,13480.56,13480.56
+1 0400.227.01.163.00 2015,,79,LIMPIEZA,109100.0,79100.0,,55223.05,23876.95,55223.05,55223.05,55223.05,55223.05
+1 0400.227.01.163.00 2014,,525,LIMPIEZAS VARIAS. VIAS PUBLICAS URBANAS,,5590.2,,5558.52,31.68,5558.52,5558.52,5558.52,5558.52
+1 0400.227.01.164.00 2015,,87,LIMPIEZA. GESTION RESIDUOS,2000.0,2000.0,,1452.0,548.0,1452.0,1452.0,1452.0,1452.0
+1 0400.227.01.323.00 2015,,196,LIMPIEZA,560000.0,560000.0,,524601.16,35398.84,524601.16,524601.16,524601.16,524601.16
+1 0400.227.01.333.20 2015,,236,LIMPIEZA,157500.0,160000.0,,158556.96,1443.04,158556.96,158556.96,158556.96,158556.96
+1 0400.227.01.442.00 2015,,366,LIMPIEZA.MARQUESINAS,3700.0,3700.0,,3645.84,54.16,3645.84,3645.84,3645.84,3645.84
+1 0400.227.01.920.40 2015,,445,LIMPIEZA,62500.0,62500.0,,20259.51,42240.49,20259.51,20014.82,20014.82,20014.82
+1 0400.227.99.133.20 2015,,27,OTROS TRABAJOS EXTERIORES,57000.0,57000.0,,43384.65,13615.35,43384.65,43384.65,43384.65,43384.65
+1 0400.227.99.311.70 2015,,187,OTR.TRAB.EXTER.DESRATIZ/ACTUAC.EXTRAORD.,18000.0,18000.0,,13279.72,4720.28,13279.72,13279.72,13279.72,13279.72
+1 0400.230.01.153.40 2015,,73,DIETAS/LOCOMOC/TRASLADO PERSONAL,100.0,100.0,,179.15,-79.15,179.15,179.15,179.15,179.15
+1 0400.230.01.164.00 2015,,88,DIETAS/LOCOMOC/TRASLADO PERSONAL,100.0,100.0,,,100.0,,,,
+1 0400.230.01.165.00 2015,,99,DIETAS/LOCOMOC/TRASLADO PERSONAL,100.0,100.0,,,100.0,,,,
+1 0400.230.01.171.00 2015,,109,DIETAS/LOCOMOC/TRASLADO PERSONAL,100.0,100.0,,211.21,-111.21,211.21,211.21,211.21,211.21
+1 0400.230.01.323.00 2015,,197,DIETAS/LOCOMOC/TRASLADO PERSONAL,100.0,100.0,,,100.0,,,,
+1 0400.230.01.920.40 2015,,446,DIETAS/LOCOMOC/TRASLADO PERSONAL,100.0,100.0,,,100.0,,,,
+1 0400.421.01.162.10 2015,,76,MANCOMUNIDAD,210000.0,210000.0,,108959.47,101040.53,108959.47,108959.47,108959.47,108959.47
+1 0400.421.01.163.00 2015,,80,MANCOMUNIDAD,1298742.64,1298742.64,,1220742.56,78000.08,1220742.56,1220742.56,1220742.56,1220742.56
+1 0400.422.01.454.00 2015,,368,DEBEMEN,32542.0,32542.0,,30326.56,2215.44,30326.56,30326.56,30326.56,30326.56
+1 0400.601.11.171.00 2015,,110,MEJORA FUENTES Y JARDINES,43000.0,14491.87,,7333.76,7158.11,7333.76,5963.8,5963.8,5963.8
+1 0400.601.27.165.00 2014,,527,APLICACIÓN MEJORAS EN ALUMBRADO,,17857.43,,13862.46,3994.97,13862.46,13862.46,13862.46,13862.46
+1 0400.601.37.454.00 2015,,369,INFRAESTRUCTURA RURAL,125000.0,125000.0,,117621.44,7378.56,117621.44,49393.11,49393.11,49393.11
+1 0400.601.37.454.00 2014,,528,INFRAESTRUCTURA RURAL,,12644.5,,12644.5,,12644.5,12644.5,12644.5,12644.5
+1 0400.623.01.153.40 2015,,75,MAQUINARIA,5000.0,5000.0,,4939.69,60.31,4939.69,4939.69,4939.69,4939.69
+1 0400.623.01.164.00 2015,,89,MAQUINARIA. ADQUISICION DE SOPLADORAS,1500.0,1500.0,,,1500.0,,,,
+1 0400.623.01.171.00 2015,,111,MAQUINARIA,9000.0,9000.0,,7953.75,1046.25,7953.75,7953.75,7953.75,7953.75
+1 0400.623.02.165.00 2015,,100,NUEVAS INSTALAC.ALUMBRADO PUBLICO,30000.0,30000.0,,19116.45,10883.55,19116.45,19116.45,19116.45,19116.45
+1 0400.629.01.164.00 2015,,90,OTRAS INVERSIONES. SUSTITUC.CREMULADOR,11374.0,11374.0,,11374.0,,11374.0,11374.0,11374.0,11374.0
+1 0400.629.01.165.00 2015,,101,OTRAS INVERS.MEDID.AHORRO ENERG.ALUMBR.,150000.0,150000.0,,75980.52,74019.48,75980.52,75598.16,75598.16,75598.16
+1 0400.629.01.920.40 2015,,447,MEDIDAS AHORRO ENERGET.EDIFIC.PUBLICOS,36120.0,36120.0,,14751.96,21368.04,14751.96,13844.46,13844.46,13844.46
+1 0400.629.03.153.30 2015,,60,EQUIPAMIENTO URBANO,150000.0,293508.13,,267204.8,26303.33,134491.81,117688.06,117688.06,117688.06
+1 0400.629.03.153.30 2014,,529,EQUIPAMIENTO URBANO,,5187.17,,5187.17,,5187.17,5187.17,5187.17,5187.17
+1 0500.120.01.230.10 2015,,119,RETRIBUCIONES BASICAS,110291.1,110291.1,,113553.3,-3262.2,113553.3,113553.3,113553.3,113553.3
+1 0500.120.01.231.50 2015,,156,RETRIBUCIONES BASICAS,17117.8,17117.8,,17117.98,-0.18,17117.98,17117.98,17117.98,17117.98
+1 0500.120.01.231.70 2015,,168,RETRIBUCIONES BASICAS,8091.12,8091.12,,8325.02,-233.9,8325.02,8325.02,8325.02,8325.02
+1 0500.120.01.231.80 2015,,175,RETRIBUCIONES BASICAS,14311.42,14311.42,,10770.59,3540.83,10770.59,10770.59,10770.59,10770.59
+1 0500.121.05.230.10 2015,,598,OTRAS REMUMERACIONES,,4533.91,,4533.91,,4533.91,4533.91,4533.91,4533.91
+1 0500.121.05.231.50 2015,,599,OTRAS REMUMERACIONES,,814.89,,814.89,,814.89,814.89,814.89,814.89
+1 0500.121.05.231.70 2015,,600,OTRAS REMUMERACIONES,,447.25,,447.25,,447.25,447.25,447.25,447.25
+1 0500.121.99.230.10 2015,,120,COMPLEMENTOS VARIOS,176566.14,176566.14,,182173.45,-5607.31,182173.45,182173.45,182173.45,182173.45
+1 0500.121.99.231.50 2015,,157,COMPLEMENTOS VARIOS,27293.28,27293.28,,27293.28,,27293.28,27293.28,27293.28,27293.28
+1 0500.121.99.231.70 2015,,169,COMPLEMENTOS VARIOS,16019.56,16019.56,,16016.81,2.75,16016.81,16016.81,16016.81,16016.81
+1 0500.121.99.231.80 2015,,176,COMPLEMENTOS VARIOS,22688.88,22688.88,,17736.52,4952.36,17736.52,17736.52,17736.52,17736.52
+1 0500.130.02.231.10 2015,,624,OTRAS REMUMERACIONES,,4023.45,,4023.45,,4023.45,4023.45,4023.45,4023.45
+1 0500.130.03.231.10 2015,,140,REMUNERACIONES PERSONAL LABORAL FIJO,241409.06,241409.06,,245540.54,-4131.48,245540.54,245540.54,245540.54,245540.54
+1 0500.131.01.230.10 2015,,121,LABORAL EVENTUAL,72116.6,72116.6,,72667.51,-550.91,72667.51,72667.51,72667.51,72667.51
+1 0500.131.01.231.10 2015,,141,LABORAL EVENTUAL,12509.9,12509.9,,13090.18,-580.28,13090.18,13090.18,13090.18,13090.18
+1 0500.131.02.230.10 2015,,632,OTRAS REMUMERACIONES,,1319.87,,1319.87,,1319.87,1319.87,1319.87,1319.87
+1 0500.131.02.231.10 2015,,634,OTRAS REMUMERACIONES,,239.54,,239.54,,239.54,239.54,239.54,239.54
+1 0500.160.01.230.10 2015,,122,SEGURIDAD SOCIAL,108651.23,108651.23,,107960.93,690.3,107960.93,107960.93,107960.93,107960.93
+1 0500.160.01.231.10 2015,,142,SEGURIDAD SOCIAL,89521.7,89521.7,,80414.57,9107.13,80414.57,80414.57,80414.57,80414.57
+1 0500.160.01.231.50 2015,,158,SEGURIDAD SOCIAL,13744.8,13744.8,,13901.88,-157.08,13901.88,13901.88,13901.88,13901.88
+1 0500.160.01.231.70 2015,,170,SEGURIDAD SOCIAL,6872.42,6872.42,,6950.88,-78.46,6950.88,6950.88,6950.88,6950.88
+1 0500.160.01.231.80 2015,,177,SEGURIDAD SOCIAL,9465.6,9465.6,,8748.29,717.31,8748.29,8748.29,8748.29,8748.29
+1 0500.160.04.230.10 2015,,123,CUOTAS ELKARKIDETZA,4846.1,4846.1,,4252.7,593.4,4252.7,4252.7,4252.7,4252.7
+1 0500.160.04.231.10 2015,,143,CUOTAS ELKARKIDETZA,8030.96,8030.96,,8505.7,-474.74,8505.7,8505.7,8505.7,8505.7
+1 0500.160.04.231.50 2015,,159,CUOTAS ELKARKIDETZA,1384.6,1384.6,,1384.6,,1384.6,1384.6,1384.6,1384.6
+1 0500.160.04.231.70 2015,,171,CUOTAS ELKARKIDETZA,692.3,692.3,,692.3,,692.3,692.3,692.3,692.3
+1 0500.201.01.231.40 2015,,150,EDIFICIOS Y OTRAS CONSTRUCCIONES,15465.0,15465.0,,11778.12,3686.88,11778.12,11778.12,11778.12,11778.12
+1 0500.201.01.337.10 2015,,310,EDIFICIOS Y OTRAS CONSTRUCCIONES,3800.0,3800.0,,3755.16,44.84,3755.16,3755.16,3755.16,3755.16
+1 0500.211.01.231.40 2015,,151,EDIFICIOS Y OTRAS CONSTRUCCIONES,4970.0,4970.0,,2605.98,2364.02,2605.98,2605.98,2605.98,2605.98
+1 0500.211.01.337.10 2015,,311,EDIFIC/OTRAS CONSTRUCC.MANTTO.HOG.JUBIL.,17577.1,17577.1,,8085.46,9491.64,8085.46,6424.74,6424.74,6424.74
+1 0500.211.01.337.10 2014,,499,EDIF. Y OTR.CONST.MANTENIMIENTO,,181.5,,,181.5,,,,
+1 0500.212.01.230.10 2015,,588,MANTTO.SISTEMA ANTIINCENDIOS PER.MAYORES,,3538.0,,3542.88,-4.88,3542.88,,,
+1 0500.221.01.231.40 2015,,152,ENERGIA ELECTRICA,6365.4,6365.4,,7332.66,-967.26,7332.66,7332.66,7332.66,7332.66
+1 0500.221.01.337.10 2015,,312,ENERGIA ELECTRICA,25029.0,25029.0,,25023.64,5.36,25023.64,25023.64,25023.64,25023.64
+1 0500.221.04.231.40 2015,,153,COMBUSTIBLES Y CARBURANTES,309.0,309.0,,152.3,156.7,152.3,152.3,152.3,152.3
+1 0500.221.04.337.10 2015,,313,COMBUSTIBLES Y CARBURANTES,16480.0,16480.0,,11706.09,4773.91,11706.09,11706.09,11706.09,11706.09
+1 0500.221.05.231.10 2015,,144,VESTUARIO,810.0,810.0,,539.78,270.22,539.78,,,
+1 0500.221.05.231.10 2014,,500,VESTUARIO,,463.19,,453.51,9.68,453.51,453.51,453.51,453.51
+1 0500.221.99.231.50 2015,,160,OTROS SUMINISTROS.PISO MUJER,3030.0,3030.0,,2954.31,75.69,2954.31,2954.31,2954.31,2954.31
+1 0500.226.02.230.20 2015,,135,DONATIVOS DESASTRES NATURALES,6000.0,7000.0,,7000.0,,7000.0,7000.0,7000.0,7000.0
+1 0500.226.58.230.10 2015,,124,OTROS GASTOS DIVERSOS.TRANSEUNTES,2060.0,2060.0,,2474.75,-414.75,2474.75,2474.75,2474.75,2474.75
+1 0500.226.64.231.60 2015,,165,INTERV.GLOB.C/COLECT.DIFICULT.INTEGRAC.,31875.0,31875.0,,26994.5,4880.5,26994.5,26994.5,26994.5,26994.5
+1 0500.226.68.230.10 2015,,125,ALOJAMIENTOS DE URGENCIA,927.0,927.0,,,927.0,,,,
+1 0500.226.69.230.10 2015,,126,GASTOS IMPREVISTOS,3000.0,3000.0,,,3000.0,,,,
+1 0500.226.85.230.10 2015,,127,GTOS DIVERS.BANC.ALIMENT.CRUZ ROJA,8000.0,8000.0,,6774.33,1225.67,6774.33,6774.33,6774.33,6774.33
+1 0500.226.96.230.10 2015,,128,DIAGNOST/PLAN INTERV.PERS.MAYORES,10000.0,10000.0,,10000.0,,10000.0,5000.0,5000.0,5000.0
+1 0500.226.99.230.10 2015,,129,OTR.GTOS DIV.SIST.ANTIINC.PERS.MAYORES,60000.0,60000.0,,59860.0,140.0,59860.0,,,
+1 0500.226.99.230.10 2014,,501,SISTEMA ANTIINCENDIOS PERS. MAYORES,,39999.84,,33831.6,6168.24,33831.6,33831.6,33831.6,33831.6
+1 0500.226.99.231.50 2015,,161,OTROS GASTOS DIVERSOS,61100.0,61100.0,,61105.62,-5.62,61105.62,52258.81,52258.81,52258.81
+1 0500.226.99.231.50 2014,,502,OTROS GASTOS DIVERSOS,,17050.0,,17050.0,,17050.0,17050.0,17050.0,17050.0
+1 0500.226.99.231.70 2015,,172,OTROS GASTOS DIVERSOS,26863.43,26863.43,,13249.92,13613.51,13249.92,12767.92,12767.92,12767.92
+1 0500.226.99.231.80 2015,,178,OTROS GASTOS DIVERSOS,22000.0,22000.0,,19848.97,2151.03,19848.97,19848.97,19848.97,19848.97
+1 0500.227.01.231.40 2015,,154,LIMPIEZA,100.0,100.0,,,100.0,,,,
+1 0500.227.04.231.60 2015,,166,CONTRATOS SOCIO-CULTURALES.MEDIO ABIERTO,76000.0,76000.0,,70947.89,5052.11,70947.89,70947.89,70947.89,70947.89
+1 0500.227.07.231.50 2015,,572,ESTUD.Y TRAB.TECN. MUJER Y DEPORTE,18000.0,18000.0,,17303.0,697.0,17303.0,17303.0,17303.0,17303.0
+1 0500.227.11.231.60 2015,,167,CONTR.INTERV.FAMIL.MENORES SITUAC.RIESGO,65000.0,65000.0,,57702.91,7297.09,57702.91,57702.91,57702.91,57702.91
+1 0500.227.90.231.10 2015,,145,TRABAJOS EXTERNOS,365000.0,365000.0,,261157.12,103842.88,261157.12,261157.12,261157.12,261157.12
+1 0500.227.99.230.10 2015,,130,OTROS TRABAJOS EXTERIORES,515.0,515.0,,,515.0,,,,
+1 0500.227.99.230.20 2015,,136,OTROS TRABAJOS EXTERIORES,6000.0,6000.0,,5060.0,940.0,5060.0,4554.0,4554.0,4554.0
+1 0500.227.99.230.20 2014,,493,OTR.TRAB.EXTER. ASIST.TECN.COOP.SOC.,,460.0,,460.0,,460.0,,,
+1 0500.227.99.230.20 2013,,576,OTROS TRABAJOS EXTERIORES,,460.0,,460.0,,460.0,,,
+1 0500.227.99.231.40 2015,,155,OTR.TRAB.EXTER.SERV.SOCIOED.PISO 3ª EDAD,3090.0,3090.0,,,3090.0,,,,
+1 0500.227.99.231.50 2015,,162,OTROS TRABAJOS EXTERIORES,412.0,412.0,,,412.0,,,,
+1 0500.230.01.230.10 2015,,131,DIETAS/LOCOMOC/TRASLADO PERSONAL,100.0,100.0,,316.56,-216.56,316.56,316.56,316.56,316.56
+1 0500.230.01.231.10 2015,,146,DIETAS/LOCOMOC/TRASLADO PERSONAL,100.0,100.0,,,100.0,,,,
+1 0500.230.01.231.50 2015,,163,DIETAS/LOCOMOC/TRASLADO PERSONAL,100.0,100.0,,98.62,1.38,98.62,98.62,98.62,98.62
+1 0500.230.01.231.70 2015,,173,DIETAS/LOCOMOC/TRASLADO PERSONAL,100.0,100.0,,48.17,51.83,48.17,48.17,48.17,48.17
+1 0500.230.01.231.80 2015,,179,DIETAS/LOCOMOC/TRASLADO PERSONAL,100.0,100.0,,55.5,44.5,55.5,55.5,55.5,55.5
+1 0500.431.03.231.90 2015,,180,O.A.A. RESIDENCIA DE ANCIANOS SAN ANDRES,250264.17,285062.07,,184797.9,100264.17,184797.9,184797.9,184797.9,184797.9
+1 0500.480.01.230.20 2015,,137,A FAMILIAS.ELKARTASUN BEKAK,3000.0,3000.0,,1500.0,1500.0,1500.0,1500.0,1500.0,1500.0
+1 0500.480.01.230.20 2014,,494,A FAMILIAS. ELKARTASUN BEKAK,,1500.0,,1500.0,,1500.0,1500.0,1500.0,1500.0
+1 0500.480.02.231.20 2015,,147,A FAM.TRANSP.A CTRO DE DIA.EXCLUS.SOCIAL,2200.0,,,,,,,,
+1 0500.480.02.231.60 2015,,587,A FAM. TRANSPORTE CENTR.INCLUSION SOCIAL,,2200.0,2200.0,,,,,,
+1 0500.480.03.231.30 2015,,148,A FAMILIAS.A.E.S.,340000.0,465000.0,,365974.27,99025.73,365974.27,340893.96,340893.96,340893.96
+1 0500.480.03.231.30 2014,,503,A FAMILIAS. A.E.S.,,24780.01,,17089.0,7691.01,17089.0,17089.0,17089.0,17089.0
+1 0500.480.04.231.70 2015,,174,A FAMILIAS. DROGADICCION,3600.0,3600.0,,690.0,2910.0,690.0,690.0,690.0,690.0
+1 0500.480.04.231.70 2014,,504,A FAMILIAS. DROGADICCION,,60.0,,60.0,,60.0,60.0,60.0,60.0
+1 0500.480.07.230.10 2015,,132,A FAMILIAS. PROGRAMA ACOGIDA,6831.68,6831.68,,1099.92,5731.76,1099.92,1099.92,1099.92,1099.92
+1 0500.480.16.231.30 2015,,149,SUBV.DESEMPL/PENSION.ESCAS.RECURSOS,45000.0,47400.0,,46650.0,750.0,46650.0,46650.0,46650.0,46650.0
+1 0500.480.19.231.30 2015,,571,A FAMIL.COBR.RGI ACT.EXTRAES.HIJOS,20000.0,20000.0,,20000.0,,,,,
+1 0500.481.01.230.10 2015,,133,A INSTITUCIONES SIN FINES DE LUCRO,22500.0,22500.0,,18481.95,4018.05,18481.95,13861.45,13861.45,13861.45
+1 0500.481.01.231.50 2015,,164,A INSTITUCIONES SIN FINES DE LUCRO,10000.0,10000.0,,7376.4,2623.6,7376.4,7376.4,7376.4,7376.4
+1 0500.481.02.230.10 2015,,134,TRANSF.A ENTID.CONV.COLAB.BIZTU,3500.0,3500.0,,3500.0,,3500.0,2800.0,2800.0,2800.0
+1 0500.481.07.337.10 2015,,314,A INSTITUC.S/FINES LUCRO.HOG.JUBILADOS,40750.0,40750.0,,37573.39,3176.61,37573.39,36187.39,36187.39,36187.39
+1 0500.481.07.337.10 2014,,505,A INST.S.F.LUCRO. HOGARES JUBILADOS,,414.0,,224.61,189.39,224.61,224.61,224.61,224.61
+1 0500.481.08.230.20 2015,,138,TRANSF.A ENTID.COOP.INTERN.AL DESARROLLO,227249.87,227249.87,,227249.87,,227249.87,170437.4,170437.4,170437.4
+1 0500.481.08.230.20 2014,,495,TRANSF.ENTID. COOP. INT.AL DESARROLLO,,60220.25,,60220.25,,60220.25,22023.75,22023.75,22023.75
+1 0500.481.08.230.20 2013,,577,TRANSF.ENT.COOP.INT.AL DESARROLLO,,23419.75,,23419.75,,23419.75,13633.0,13633.0,13633.0
+1 0500.481.29.230.20 2015,,139,TRANSF.A ENTID.PROG.SENSIBILIZ.,6000.0,6000.0,,6000.0,,6000.0,4800.0,4800.0,4800.0
+1 0500.781.01.230.10 2015,,639,A INSTITUC.S/F.LUCRO.A.E.C.C.,,135985.57,,135985.57,,,,,
+1 0600.226.99.324.10 2015,,199,OTROS GASTOS DIVERSOS,74746.0,74746.0,,59505.52,15240.48,59505.52,58210.82,58210.82,58210.82
+1 0600.226.99.324.10 2014,,562,OTROS GASTOS DIVERSOS,,2609.89,,2609.88,0.01,2609.88,2609.88,2609.88,2609.88
+1 0600.227.99.324.10 2015,,200,OTROS TRABAJOS EXTERIORES,212400.0,212400.0,,216625.72,-4225.72,216625.72,216625.72,216625.72,216625.72
+1 0600.481.23.326.20 2015,,202,A VARIAS INSTITUC.S/FINES LUCRO,14876.0,14876.0,,14875.0,1.0,14875.0,14875.0,14875.0,14875.0
+1 0700.120.01.330.00 2015,,203,RETRIBUCIONES BASICAS,40995.3,40995.3,,42756.1,-1760.8,42756.1,42756.1,42756.1,42756.1
+1 0700.120.01.332.10 2015,,211,RETRIBUCIONES BASICAS,50724.07,50724.07,,50782.08,-58.01,50782.08,50782.08,50782.08,50782.08
+1 0700.120.01.333.30 2015,,237,RETRIBUCIONES BASICAS,10159.02,10159.02,,10074.86,84.16,10074.86,10074.86,10074.86,10074.86
+1 0700.120.01.334.30 2015,,265,RETRIBUCIONES BASICAS,2976.44,2976.44,,4997.97,-2021.53,4997.97,4997.97,4997.97,4997.97
+1 0700.121.05.330.00 2015,,601,OTRAS REMUMERACIONES,,2376.77,,2376.77,,2376.77,2376.77,2376.77,2376.77
+1 0700.121.05.332.10 2015,,602,OTRAS REMUMERACIONES,,3114.77,,3114.77,,3114.77,3114.77,3114.77,3114.77
+1 0700.121.05.333.30 2015,,603,OTRAS REMUMERACIONES,,571.17,,571.17,,571.17,571.17,571.17,571.17
+1 0700.121.05.334.30 2015,,604,OTRAS REMUMERACIONES,,173.51,,173.51,,173.51,173.51,173.51,173.51
+1 0700.121.99.330.00 2015,,204,COMPLEMENTOS VARIOS,88335.08,88335.08,,91664.83,-3329.75,91664.83,91664.83,91664.83,91664.83
+1 0700.121.99.332.10 2015,,212,COMPLEMENTOS VARIOS,120413.98,120413.98,,120879.53,-465.55,120879.53,120879.53,120879.53,120879.53
+1 0700.121.99.333.30 2015,,238,COMPLEMENTOS VARIOS,21545.02,21545.02,,23505.28,-1960.26,23505.28,23505.28,23505.28,23505.28
+1 0700.121.99.334.30 2015,,266,COMPLEMENTOS VARIOS,6469.7,6469.7,,12294.0,-5824.3,12294.0,12294.0,12294.0,12294.0
+1 0700.130.02.334.30 2015,,625,OTRAS REMUMERACIONES,,336.11,,336.11,,336.11,336.11,336.11,336.11
+1 0700.130.03.334.30 2015,,267,REMUNERACIONES PERSONAL LABORAL FIJO,18222.32,18222.32,,18342.51,-120.19,18342.51,18342.51,18342.51,18342.51
+1 0700.131.01.332.10 2015,,213,LABORAL EVENTUAL,29779.7,29779.7,,29462.42,317.28,29462.42,29462.42,29462.42,29462.42
+1 0700.131.01.334.30 2015,,268,LABORAL EVENTUAL,31696.1,31696.1,,32277.2,-581.1,32277.2,32277.2,32277.2,32277.2
+1 0700.131.02.332.10 2015,,633,OTRAS REMUMERACIONES,,530.13,,530.13,,530.13,530.13,530.13,530.13
+1 0700.131.02.334.30 2015,,635,OTRAS REMUMERACIONES,,584.13,,584.13,,584.13,584.13,584.13,584.13
+1 0700.160.01.330.00 2015,,205,SEGURIDAD SOCIAL,37753.7,37753.7,,39943.87,-2190.17,39943.87,39943.87,39943.87,39943.87
+1 0700.160.01.332.10 2015,,214,SEGURIDAD SOCIAL,57569.84,57569.84,,57778.19,-208.35,57778.19,57778.19,57778.19,57778.19
+1 0700.160.01.333.30 2015,,239,SEGURIDAD SOCIAL,8268.75,8268.75,,8363.88,-95.13,8363.88,8363.88,8363.88,8363.88
+1 0700.160.01.334.30 2015,,269,SEGURIDAD SOCIAL,18338.5,18338.5,,21056.9,-2718.4,21056.9,21056.9,21056.9,21056.9
+1 0700.160.04.330.00 2015,,206,CUOTAS ELKARKIDETZA,3470.04,3470.04,,3470.04,,3470.04,3470.04,3470.04,3470.04
+1 0700.160.04.332.10 2015,,215,CUOTAS ELKARKIDETZA,4933.88,4933.88,,5883.36,-949.48,5883.36,5883.36,5883.36,5883.36
+1 0700.160.04.333.30 2015,,240,CUOTAS ELKARKIDETZA,567.98,567.98,,871.22,-303.24,871.22,871.22,871.22,871.22
+1 0700.160.04.334.30 2015,,270,CUOTAS ELKARKIDETZA,2839.9,2839.9,,2163.7,676.2,2163.7,2163.7,2163.7,2163.7
+1 0700.201.01.330.00 2015,,207,EDIFICIOS Y OTRAS CONSTRUCCIONES,3150.0,3150.0,,3225.0,-75.0,3225.0,3225.0,3225.0,3225.0
+1 0700.201.01.337.20 2015,,315,EDIFICIOS Y OTRAS CONSTRUCCIONES,2000.0,2000.0,,2000.0,,2000.0,2000.0,2000.0,2000.0
+1 0700.202.01.334.40 2015,,279,"MAQUINARIA, INSTALACIONES Y UTILLAJE",515.0,515.0,,,515.0,,,,
+1 0700.212.01.332.10 2015,,216,"MAQUINARIA, INSTALACIONES Y UTILLAJE",4000.0,4000.0,,3292.44,707.56,3292.44,3292.44,3292.44,3292.44
+1 0700.212.01.337.20 2015,,316,"MAQUINARIA, INSTALACIONES Y UTILLAJE",721.0,721.0,,,721.0,,,,
+1 0700.215.02.333.10 2015,,227,MANTENIMIENTO DE APLICACIONES,7416.0,7416.0,,2793.4,4622.6,2793.4,2083.66,2083.66,2083.66
+1 0700.215.02.333.10 2014,,531,MANTTO. APLICACIONES INFORMATICAS,,371.43,,64.61,306.82,64.61,64.61,64.61,64.61
+1 0700.219.01.333.30 2015,,241,OTROS MANTENIMIENTOS,9000.0,9000.0,,11172.85,-2172.85,11172.85,3359.35,3359.35,3359.35
+1 0700.219.01.333.30 2014,,532,OTROS MANTENIMIENTOS,,2657.43,,2657.43,,2657.43,2657.43,2657.43,2657.43
+1 0700.220.01.333.30 2015,,242,ORDINARIO NO INVENTARIABLE,7000.0,7000.0,,6672.36,327.64,6672.36,5937.37,5937.37,5937.37
+1 0700.220.01.333.30 2014,,533,ORDINARIO NO INVENTARIABLE,,317.02,,,317.02,,,,
+1 0700.220.02.332.10 2015,,217,PRENSA/REVISTAS/LIBROS/OTRAS PUBLIC.,31600.0,31600.0,,31290.5,309.5,31290.5,30899.18,30899.18,30899.18
+1 0700.221.09.333.10 2015,,230,PRODUCTOS DE LIMPIEZA Y ASEO,850.0,850.0,,760.34,89.66,760.34,760.34,760.34,760.34
+1 0700.221.99.332.10 2015,,218,OTROS SUMINISTROS,9900.0,9900.0,,9511.28,388.72,9511.28,7287.07,7287.07,7287.07
+1 0700.221.99.332.10 2014,,534,OTROS SUMINISTROS,,3364.71,,328.37,3036.34,328.37,328.37,328.37,328.37
+1 0700.221.99.333.10 2015,,231,OTROS SUMINISTROS,4944.0,4944.0,,14583.33,-9639.33,14583.33,14417.01,14417.01,14417.01
+1 0700.221.99.334.30 2015,,271,OTROS SUMINISTROS,6000.0,6000.0,,7942.28,-1942.28,7942.28,7435.38,7435.38,7435.38
+1 0700.221.99.338.00 2015,,324,OTROS SUMINISTROS,29100.0,38800.0,,35790.19,3009.81,35790.19,35706.12,35706.12,35706.12
+1 0700.224.99.334.30 2015,,272,OTROS RIESGOS.SEGURO ALUMNOS,3090.0,3090.0,,1985.82,1104.18,1985.82,1985.82,1985.82,1985.82
+1 0700.226.01.334.10 2015,,249,CANONES,4447.2,4447.2,,10769.14,-6321.94,10769.14,8012.56,8012.56,8012.56
+1 0700.226.01.334.10 2014,,535,CANONES,,2415.26,,2145.31,269.95,2145.31,2145.31,2145.31,2145.31
+1 0700.226.01.334.21 2015,,256,CANONES,5000.0,5000.0,,3256.16,1743.84,3256.16,1868.47,1868.47,1868.47
+1 0700.226.01.334.21 2014,,536,CANONES,,1500.0,,927.93,572.07,927.93,927.93,927.93,927.93
+1 0700.226.01.334.22 2015,,261,CANONES,6000.0,6000.0,,4321.68,1678.32,4321.68,4321.68,4321.68,4321.68
+1 0700.226.01.334.40 2015,,280,CANONES,309.0,309.0,,,309.0,,,,
+1 0700.226.01.338.00 2015,,325,CANONES S.G.A.E.,9064.0,9064.0,,141.69,8922.31,141.69,141.69,141.69,141.69
+1 0700.226.02.332.10 2015,,219,ATENCIONES PROTOCOL/REPRESENTATIVAS,500.0,500.0,,615.85,-115.85,615.85,615.85,615.85,615.85
+1 0700.226.02.338.00 2015,,326,ATENCIONES PROTOCOL/REPRESENTATIVAS,3090.0,3090.0,,4661.4,-1571.4,4661.4,4661.4,4661.4,4661.4
+1 0700.226.03.330.00 2015,,208,"PUBLICACIONES, PUBLICIDAD Y PROPAGANDA",41191.37,41191.37,,36691.69,4499.68,36691.69,36691.69,36691.69,36691.69
+1 0700.226.03.330.00 2014,,537,PUBLICIDAD Y PROPAGANDA,,2355.74,,,2355.74,,,,
+1 0700.226.03.332.10 2015,,220,"PUBLICACIONES, PUBLICIDAD Y PROPAGANDA",400.0,400.0,,,400.0,,,,
+1 0700.226.03.333.30 2015,,243,"PUBLICACIONES, PUBLICIDAD Y PROPAGANDA",23700.0,23700.0,,22653.01,1046.99,22653.01,7843.51,7843.51,7843.51
+1 0700.226.03.333.30 2014,,538,"PUBLICACIONES, PUBLICIDAD Y PROPAGANDA",,181.5,,181.5,,181.5,181.5,181.5,181.5
+1 0700.226.03.334.10 2015,,250,"PUBLICACIONES, PUBLICIDAD Y PROPAGANDA",515.0,515.0,,471.9,43.1,471.9,471.9,471.9,471.9
+1 0700.226.03.334.21 2015,,257,"PUBLICACIONES, PUBLICIDAD Y PROPAGANDA",1545.0,1545.0,,1627.28,-82.28,1627.28,1627.28,1627.28,1627.28
+1 0700.226.03.334.22 2015,,262,"PUBLICACIONES, PUBLICIDAD Y PROPAGANDA",8060.0,8060.0,,10835.11,-2775.11,10835.11,10835.11,10835.11,10835.11
+1 0700.226.03.334.30 2015,,273,"PUBLICACIONES, PUBLICIDAD Y PROPAGANDA",2781.0,2781.0,,1034.54,1746.46,1034.54,1034.54,1034.54,1034.54
+1 0700.226.03.334.40 2015,,281,"PUBLICACIONES, PUBLICIDAD Y PROPAGANDA",3270.0,3270.0,,2351.94,918.06,2351.94,2351.94,2351.94,2351.94
+1 0700.226.03.338.00 2015,,327,"PUBLICACIONES, PUBLICIDAD Y PROPAGANDA",4075.0,4075.0,,9096.26,-5021.26,9096.26,9096.26,9096.26,9096.26
+1 0700.226.05.332.10 2015,,221,REUNIONES Y CONFERENCIAS,1800.0,1800.0,,1608.23,191.77,1608.23,1608.23,1608.23,1608.23
+1 0700.226.05.333.30 2015,,244,REUNIONES Y CONFERENCIAS,2000.0,2000.0,,802.45,1197.55,802.45,802.45,802.45,802.45
+1 0700.226.05.334.30 2015,,274,REUNIONES Y CONFERENCIAS,8700.0,8700.0,,8769.66,-69.66,8769.66,8701.37,8701.37,8701.37
+1 0700.226.05.334.30 2014,,539,REUNIONES Y CONFERENCIAS,,723.05,,,723.05,,,,
+1 0700.226.06.334.30 2015,,275,ACTIVIDADES SOCIO-CULTURALES,875.0,875.0,,1641.03,-766.03,1641.03,1641.03,1641.03,1641.03
+1 0700.226.06.337.20 2015,,317,ACTIVIDADES SOCIO-CULTURALES,6180.0,6180.0,,5989.92,190.08,5989.92,5495.52,5495.52,5495.52
+1 0700.226.06.338.00 2015,,328,ACTIVIDADES SOCIO-CULTURALES,105004.0,130004.0,,127134.74,2869.26,127134.74,124673.34,124673.34,124673.34
+1 0700.226.06.338.00 2014,,540,ACTIVIDADES SOCIO-CULTURALES,,800.0,,800.0,,800.0,800.0,800.0,800.0
+1 0700.226.81.337.20 2015,,318,OTROS GASTOS DIV.OFICINA INFORM.JUVENIL,5479.6,5479.6,,855.47,4624.13,855.47,855.47,855.47,855.47
+1 0700.226.81.337.20 2014,,541,OTR.GAST.DIV. OFICINA INFORMAC.JUVENIL,,242.0,,,242.0,,,,
+1 0700.226.92.337.20 2015,,319,GASTOS ALBERGUE.COLONIA ARRATE,12000.0,7000.0,,7000.0,,7000.0,7000.0,7000.0,7000.0
+1 0700.226.92.337.20 2014,,542,GASTOS APERTURA ALBERGUE,,5269.55,,5269.55,,5269.55,5269.55,5269.55,5269.55
+1 0700.226.99.330.00 2015,,583,BESTE HAINBAT GASTU,,4810.0,,4361.44,448.56,4361.44,4361.44,4361.44,4361.44
+1 0700.226.99.333.10 2015,,637,REGULARIZ. IVA COLISEO,,73276.72,,73276.72,,73276.72,73276.72,73276.72,73276.72
+1 0700.226.99.333.30 2015,,488,CENTRO INTERPR.GUERRA CIVIL EN EIBAR,,31133.71,,30749.05,384.66,30749.05,30749.05,30749.05,30749.05
+1 0700.226.99.337.20 2015,,320,ACTIV.LOCALES TIEMPO LIBRE,71468.0,71468.0,,62765.91,8702.09,62765.91,62765.91,62765.91,62765.91
+1 0700.227.04.332.10 2015,,222,CONTRATOS SOCIO-CULTURALES,6480.0,6480.0,,5541.9,938.1,5541.9,5541.9,5541.9,5541.9
+1 0700.227.04.334.10 2015,,251,CONTRATOS SOCIO-CULTURALES,31500.0,31500.0,,40171.67,-8671.67,40171.67,40171.67,40171.67,40171.67
+1 0700.227.04.334.21 2015,,258,CONTRATOS SOCIO-CULTURALES,46350.0,46350.0,,41084.83,5265.17,41084.83,41084.83,41084.83,41084.83
+1 0700.227.04.334.21 2014,,544,CONTRATOS SOCIO-CULTURALES,,1815.0,,1500.0,315.0,1500.0,1500.0,1500.0,1500.0
+1 0700.227.04.334.22 2015,,263,CONTRATOS SOCIO-CULTURALES,102600.0,102600.0,,104713.43,-2113.43,104713.43,104713.43,104713.43,104713.43
+1 0700.227.04.334.30 2015,,276,CONTRATOS SOCIO-CULTURALES,8755.0,8755.0,,5821.51,2933.49,5821.51,5821.51,5821.51,5821.51
+1 0700.227.04.334.40 2015,,282,CONTRATOS SOCIO-CULTURALES,5400.0,5400.0,,5672.76,-272.76,5672.76,3914.96,3914.96,3914.96
+1 0700.227.04.334.40 2014,,545,CONTRATOS SOCIO-CULTURALES,,1728.1,,1728.1,,1728.1,1728.1,1728.1,1728.1
+1 0700.227.04.337.20 2015,,321,CONTRATOS SOCIO-CULTURALES,3605.0,3005.0,,2936.01,68.99,2936.01,2936.01,2936.01,2936.01
+1 0700.227.04.338.00 2015,,329,CONTRATOS SOCIO-CULTURALES,153000.0,153000.0,,152852.83,147.17,152852.83,151752.83,151752.83,151752.83
+1 0700.227.90.333.10 2015,,232,TRABAJOS EXTERNOS,200524.0,193524.0,,175634.55,17889.45,175634.55,175634.55,175634.55,175634.55
+1 0700.227.90.333.30 2015,,245,TRABAJOS EXTERIORES,16950.0,16950.0,,17366.27,-416.27,17366.27,17366.27,17366.27,17366.27
+1 0700.227.90.334.10 2015,,252,CONTRATOS A TAQUILLA,35000.0,35000.0,,20499.87,14500.13,20499.87,14154.87,14154.87,14154.87
+1 0700.227.90.334.22 2015,,264,TRABAJOS EXTERNOS.UNI KULTUR ELKARTEA,15000.0,15000.0,,15000.0,,15000.0,15000.0,15000.0,15000.0
+1 0700.227.99.333.30 2015,,246,OTROS TRABAJOS EXTERIORES,41140.0,41140.0,,38831.26,2308.74,38831.26,38831.26,38831.26,38831.26
+1 0700.227.99.334.10 2015,,253,OTROS TRAB.EXTERIORES.CONTRATOS BANDAS,100005.0,100005.0,,99994.0,11.0,99994.0,99994.0,99994.0,99994.0
+1 0700.227.99.334.21 2015,,259,CONTRATOS A TAQUILLA,61660.0,53660.0,,33350.35,20309.65,33350.35,30446.35,30446.35,30446.35
+1 0700.227.99.337.20 2015,,322,OTROS TRABAJOS EXTERIORES,184160.94,179460.94,,175949.26,3511.68,175949.26,175949.26,175949.26,175949.26
+1 0700.230.01.330.00 2015,,209,DIETAS/LOCOMOC/TRASLADO PERSONAL,100.0,100.0,,407.57,-307.57,407.57,407.57,407.57,407.57
+1 0700.230.01.332.10 2015,,223,DIETAS/LOCOMOC/TRASLADO PERSONAL,100.0,100.0,,212.96,-112.96,212.96,212.96,212.96,212.96
+1 0700.230.01.333.30 2015,,247,DIETAS/LOCOMOC/TRASLADO PERSONAL,100.0,100.0,,10.2,89.8,10.2,10.2,10.2,10.2
+1 0700.230.01.334.30 2015,,277,DIETAS/LOCOMOC/TRASLADO PERSONAL,100.0,100.0,,3.1,96.9,3.1,3.1,3.1,3.1
+1 0700.431.01.326.10 2015,,201,ORGANISMOS AUTONOMOS,262948.93,268120.35,,219148.77,48971.58,219148.77,219148.77,219148.77,219148.77
+1 0700.480.01.334.40 2015,,283,A FAMILIAS,5500.0,5500.0,,4705.0,795.0,4705.0,4705.0,4705.0,4705.0
+1 0700.480.01.338.00 2015,,330,A FAMILIAS.CONCURSO CARTELES FIESTAS,2670.0,2670.0,,2580.0,90.0,2580.0,2580.0,2580.0,2580.0
+1 0700.481.01.330.00 2015,,210,A INSTITUCIONES SIN FINES DE LUCRO,10680.0,10680.0,,10680.0,,10680.0,1080.0,1080.0,1080.0
+1 0700.481.01.330.00 2014,,567,A INSTITUCIONES SIN FINES DE LUCRO,,3675.0,,3675.0,,3675.0,3675.0,3675.0,3675.0
+1 0700.481.01.332.10 2015,,224,A INSTITUCIONES SIN FINES DE LUCRO,1350.0,1350.0,,1350.0,,1350.0,,,
+1 0700.481.01.332.10 2014,,548,A INSTITUCIONES SIN FINES DE LUCRO,,1350.0,,1350.0,,1350.0,1350.0,1350.0,1350.0
+1 0700.481.01.334.10 2015,,254,A INSTITUCIONES SIN FINES DE LUCRO,675.0,675.0,,675.0,,675.0,,,
+1 0700.481.01.334.10 2014,,549,A INSTITUCIONES SIN FINES DE LUCRO,,337.5,,337.5,,337.5,337.5,337.5,337.5
+1 0700.481.01.334.30 2015,,278,A INSTITUCIONES SIN FINES DE LUCRO,6525.0,6525.0,,6525.0,,6525.0,3262.5,3262.5,3262.5
+1 0700.481.01.334.30 2014,,550,A INSTITUCIONES SIN FINES DE LUCRO,,2700.0,,2700.0,,2700.0,2700.0,2700.0,2700.0
+1 0700.481.01.334.40 2015,,284,A INSTITUCIONES SIN FINES DE LUCRO,900.0,900.0,,900.0,,900.0,,,
+1 0700.481.01.334.40 2014,,551,A INSTITUCIONES SIN FINES DE LUCRO,,450.0,,450.0,,450.0,450.0,450.0,450.0
+1 0700.481.02.334.10 2015,,255,TRANSF.A ENTID.CONV.COLAB.,5580.0,5580.0,,5580.0,,5580.0,,,
+1 0700.481.02.334.21 2015,,260,TRANSF.A ENTID.CONV.COLAB.,27900.0,27900.0,,27900.0,,27900.0,27900.0,27900.0,27900.0
+1 0700.481.02.334.40 2015,,285,TRANSF.A ENTID.CONV.COLAB.,3500.0,3500.0,,3500.0,,3500.0,,,
+1 0700.481.02.337.20 2015,,323,TRANSF.A ENTID.CONV.COLAB.,1935.0,1935.0,,1125.0,810.0,1125.0,,,
+1 0700.481.02.338.00 2014,,553,A INSTITUCIONES SIN FINES DE LUCRO,,1020.0,,1020.0,,1020.0,1020.0,1020.0,1020.0
+1 0700.481.18.338.00 2015,,331,A INSTITUCIONES.COLECTIVOS FIESTAS,8910.0,8910.0,,8910.0,,8910.0,,,
+1 0700.625.01.333.30 2015,,248,MOBILIARIO,22000.0,12000.0,,11913.61,86.39,11913.61,,,
+1 0700.625.02.332.10 2015,,225,EQUIPOS. NUEVAS TECNOLOGIAS,1500.0,1500.0,,,1500.0,,,,
+1 0700.625.02.332.10 2014,,555,EQUIPOS. NUEVAS TECONOLOGIAS,,3857.18,,3857.18,,3857.18,3857.18,3857.18,3857.18
+1 0700.628.01.332.10 2014,,556,FONDOS BIBLIOGRAFICOS,,1853.98,,1416.65,437.33,1416.65,1416.65,1416.65,1416.65
+1 0700.629.08.338.00 2015,,641,OTR.INMOV.MATER.SEMOVIENTES DOMESTICOS,,600.0,,500.0,100.0,500.0,,,
+1 0800.120.01.335.10 2015,,286,RETRIBUCIONES BASICAS,17585.92,17585.92,,17585.92,,17585.92,17585.92,17585.92,17585.92
+1 0800.120.01.335.20 2015,,298,RETRIBUCIONES BASICAS,168677.03,168677.03,,168611.57,65.46,168611.57,168611.57,168611.57,168611.57
+1 0800.121.05.335.10 2015,,605,OTRAS REMUMERACIONES,,827.54,,827.54,,827.54,827.54,827.54,827.54
+1 0800.121.05.335.20 2015,,606,OTRAS REMUMERACIONES,,7055.16,,7055.16,,7055.16,7055.16,7055.16,7055.16
+1 0800.121.99.335.10 2015,,287,COMPLEMENTOS VARIOS,27504.34,27504.34,,31217.92,-3713.58,31217.92,31217.92,31217.92,31217.92
+1 0800.121.99.335.20 2015,,299,COMPLEMENTOS VARIOS,216127.75,216127.75,,219494.84,-3367.09,219494.84,219494.84,219494.84,219494.84
+1 0800.160.01.335.10 2015,,288,SEGURIDAD SOCIAL,10877.28,10877.28,,10904.64,-27.36,10904.64,10904.64,10904.64,10904.64
+1 0800.160.01.335.20 2015,,300,SEGURIDAD SOCIAL,100582.4,100582.4,,96982.74,3599.66,96982.74,96982.74,96982.74,96982.74
+1 0800.160.04.335.10 2015,,289,CUOTAS ELKARKIDETZA,1384.6,1384.6,,1384.6,,1384.6,1384.6,1384.6,1384.6
+1 0800.160.04.335.20 2015,,301,CUOTAS ELKARKIDETZA,12212.76,12212.76,,12212.76,,12212.76,12212.76,12212.76,12212.76
+1 0800.211.01.335.20 2015,,302,EDIFICIOS Y OTRAS CONSTRUCCIONES,300.0,300.0,,,300.0,,,,
+1 0800.215.01.335.10 2015,,290,EQUIPOS PARA PROCESOS DE INFORMACION,824.0,824.0,,809.9,14.1,809.9,809.9,809.9,809.9
+1 0800.219.01.335.20 2015,,303,OTRO INMOVILIZADO MATERIAL,300.0,300.0,,,300.0,,,,
+1 0800.221.99.335.20 2015,,304,OTROS SUMINISTROS,1250.0,1250.0,,1083.01,166.99,1083.01,1083.01,1083.01,1083.01
+1 0800.224.99.335.20 2015,,305,OTROS RIESGOS.SEGURO ALUMNOS,400.0,400.0,,230.12,169.88,230.12,230.12,230.12,230.12
+1 0800.226.03.335.10 2015,,291,"PUBLICACIONES, PUBLICIDAD Y PROPAGANDA",5300.0,5300.0,,2096.11,3203.89,2096.11,2096.11,2096.11,2096.11
+1 0800.226.03.335.20 2015,,306,"PUBLICACIONES, PUBLICIDAD Y PROPAGANDA",4500.0,4500.0,,2581.76,1918.24,2581.76,2581.76,2581.76,2581.76
+1 0800.226.05.335.10 2015,,292,REUNIONES Y CONFERENCIAS,3000.0,3000.0,,3306.08,-306.08,3306.08,3306.08,3306.08,3306.08
+1 0800.226.99.335.20 2015,,307,OTROS GASTOS DIVERSOS,3000.0,3000.0,,1526.7,1473.3,1526.7,1526.7,1526.7,1526.7
+1 0800.226.99.335.20 2014,,543,OTROS GASTOS DIVERSOS,,200.0,,,200.0,,,,
+1 0800.227.04.335.10 2015,,293,CONTRATOS SOCIO-CULTURALES,27547.5,27547.5,,26532.68,1014.82,26532.68,19764.38,19764.38,19764.38
+1 0800.227.04.335.10 2014,,546,CONTRATOS SOCIO-CULTURALES,,6768.29,,6306.3,461.99,6306.3,6306.3,6306.3,6306.3
+1 0800.227.87.335.10 2015,,573,DESARROLLO PLAN ESTRATEG.EUSKERA,11000.0,11000.0,,10890.0,110.0,10890.0,10890.0,10890.0,10890.0
+1 0800.230.01.335.10 2015,,294,DIETAS/LOCOMOC/TRASLADO PERSONAL,100.0,100.0,,18.48,81.52,18.48,18.48,18.48,18.48
+1 0800.230.01.335.20 2015,,308,DIETAS/LOCOMOC/TRASLADO PERSONAL,100.0,100.0,,717.38,-617.38,717.38,717.38,717.38,717.38
+1 0800.480.01.335.10 2015,,295,A FAMILIAS,10500.0,10500.0,,9260.0,1240.0,9260.0,3860.0,3860.0,3860.0
+1 0800.480.01.335.10 2014,,547,A FAMILIAS,,3600.0,,1800.0,1800.0,1800.0,1800.0,1800.0,1800.0
+1 0800.481.01.335.10 2015,,296,A INSTITUCIONES SIN FINES DE LUCRO,3121.0,3121.0,,3121.0,,3121.0,1872.6,1872.6,1872.6
+1 0800.481.01.335.10 2014,,552,A INSTITUCIONES SIN FINES DE LUCRO,,2448.4,,2448.4,,2448.4,2448.4,2448.4,2448.4
+1 0800.481.02.335.10 2015,,297,TRANSF.A ENTID.CONV.COLAB.,129349.0,129349.0,,129349.0,,129349.0,77609.4,77609.4,77609.4
+1 0800.481.02.335.10 2014,,554,TRANSF.A ENTIDAD.CONVEN.COLABORAC.,,30296.4,,30296.4,,30296.4,30296.4,30296.4,30296.4
+1 0900.221.99.341.00 2015,,332,OTROS SUMINISTROS (TROFEOS),6200.0,6200.0,,4043.75,2156.25,4043.75,4043.75,4043.75,4043.75
+1 0900.226.06.341.00 2015,,333,ACTIVIDADES SOCIO-CULTURALES,48400.0,48400.0,,48400.0,,48400.0,48400.0,48400.0,48400.0
+1 0900.227.99.341.00 2015,,334,OTROS TRABAJOS EXTERIORES,58500.0,179500.0,,179500.0,,179500.0,58500.0,58500.0,58500.0
+1 0900.227.99.341.00 2014,,557,OTROS TRABAJOS EXTERIORES,,39000.0,,39000.0,,39000.0,39000.0,39000.0,39000.0
+1 0900.431.01.342.10 2015,,338,ORGANISMOS AUTONOMOS,885240.0,893723.77,,893723.77,,893723.77,893723.77,893723.77,893723.77
+1 0900.481.01.341.00 2015,,335,A INSTITUCIONES SIN FINES DE LUCRO,16850.0,25850.0,,25850.0,,25850.0,21700.0,21700.0,21700.0
+1 0900.481.01.341.00 2014,,558,A INSTITUCIONES SIN FINES DE LUCRO,,3354.0,,3354.0,,3354.0,3354.0,3354.0,3354.0
+1 0900.481.02.341.00 2015,,336,TRANSF.A ENTID.CONV.COLAB.,75000.0,75000.0,,64729.05,10270.95,64729.05,32984.32,32984.32,32984.32
+1 0900.481.02.341.00 2014,,559,TRANSF. ENTIDAD.CONVENIOS COLABOR.,,7559.85,,4758.35,2801.5,4758.35,4758.35,4758.35,4758.35
+1 0900.481.22.341.00 2015,,337,TRANSF.A ENTID.ASIST.CAMP/PRUEB.DEPORT.,6500.0,6500.0,,,6500.0,,,,
+1 1000.120.01.433.10 2015,,342,RETRIBUCIONES BASICAS,17117.98,17117.98,,18290.43,-1172.45,18290.43,18290.43,18290.43,18290.43
+1 1000.120.01.493.00 2015,,370,RETRIBUCIONES BASICAS,14105.64,14105.64,,16339.14,-2233.5,16339.14,16339.14,16339.14,16339.14
+1 1000.121.05.433.10 2015,,607,OTRAS REMUMERACIONES,,814.89,,814.89,,814.89,814.89,814.89,814.89
+1 1000.121.05.493.00 2015,,608,OTRAS REMUMERACIONES,,676.73,,676.73,,676.73,676.73,676.73,676.73
+1 1000.121.99.433.10 2015,,343,COMPLEMENTOS VARIOS,27293.28,27293.28,,29799.46,-2506.18,29799.46,29799.46,29799.46,29799.46
+1 1000.121.99.493.00 2015,,371,COMPLEMENTOS VARIOS,20278.73,20278.73,,28692.19,-8413.46,28692.19,28692.19,28692.19,28692.19
+1 1000.131.01.241.00 2015,,181,LABORAL EVENTUAL,261705.73,261705.73,,201966.91,59738.82,201966.91,201966.91,201966.91,201966.91
+1 1000.160.01.241.00 2015,,182,SEGURIDAD SOCIAL,97078.37,97078.37,,71136.49,25941.88,71136.49,71136.49,71136.49,71136.49
+1 1000.160.01.433.10 2015,,344,SEGURIDAD SOCIAL,13744.8,13744.8,,15031.24,-1286.44,15031.24,15031.24,15031.24,15031.24
+1 1000.160.01.493.00 2015,,372,SEGURIDAD SOCIAL,11049.7,11049.7,,16075.27,-5025.57,16075.27,16075.27,16075.27,16075.27
+1 1000.160.04.433.10 2015,,345,CUOTAS ELKARKIDETZA,1384.6,1384.6,,1384.6,,1384.6,1384.6,1384.6,1384.6
+1 1000.160.04.493.00 2015,,373,CUOTAS ELKARKIDETZA,1135.96,1135.96,,1135.96,,1135.96,1135.96,1135.96,1135.96
+1 1000.201.01.431.20 2015,,340,EDIFICIOS Y OTRAS CONSTRUCCIONES,55425.0,55425.0,,55297.05,127.95,55297.05,55297.05,55297.05,55297.05
+1 1000.211.01.431.20 2015,,341,EDIFICIOS Y OTRAS CONSTRUCCIONES,2000.0,2000.0,,188.6,1811.4,188.6,188.6,188.6,188.6
+1 1000.226.03.241.00 2015,,183,"PUBLICACIONES, PUBLICIDAD Y PROPAGANDA",14200.0,14200.0,,2903.29,11296.71,2903.29,2903.29,2903.29,2903.29
+1 1000.226.05.433.20 2015,,361,REUNIONES Y CONFERENCIAS,4000.0,4000.0,,1425.32,2574.68,1425.32,1425.32,1425.32,1425.32
+1 1000.226.99.241.00 2015,,184,OTROS GASTOS DIVERSOS,3350.0,3350.0,,,3350.0,,,,
+1 1000.227.85.433.10 2015,,574,PLAN DIRECTOR DINAMIZAC.DESARROLLO LOCAL,30000.0,30000.0,,,30000.0,,,,
+1 1000.227.86.433.10 2015,,346,EDIC.VIDEO INDUS.EIB.50 AÑOS DESP.,18000.0,18000.0,,17850.0,150.0,17850.0,,,
+1 1000.227.89.433.10 2015,,347,OTROS TRABAJOS EXTERIORES.LANTALDE,9000.0,9000.0,,,9000.0,,,,
+1 1000.227.90.241.00 2015,,487,TRABAJ.EXTERNOS.CONV.EMPLEO GUREAK,4481.0,4481.0,,3751.0,730.0,3751.0,3751.0,3751.0,3751.0
+1 1000.227.90.433.10 2015,,348,TRABAJOS EXTERNOS.MAKERS,6000.0,6000.0,,5324.0,676.0,5324.0,5324.0,5324.0,5324.0
+1 1000.227.99.433.10 2015,,349,OTR.TRAB.EXTER.FER.AGRIC/GERTAT.ZABALK.,5000.0,5000.0,,6073.92,-1073.92,6073.92,6073.92,6073.92,6073.92
+1 1000.227.99.433.20 2015,,362,OTROS TRABAJOS EXTERIORES,103138.72,103138.72,,65194.56,37944.16,65194.56,65003.38,65003.38,65003.38
+1 1000.230.01.241.00 2015,,185,DIETAS/LOCOMOC/TRASLADO PERSONAL,100.0,100.0,,,100.0,,,,
+1 1000.230.01.433.10 2015,,350,DIETAS/LOCOMOC/TRASLADO PERSONAL,100.0,100.0,,9.0,91.0,9.0,9.0,9.0,9.0
+1 1000.230.01.493.00 2015,,374,DIETAS/LOCOMOC/TRASLADO PERSONAL,100.0,100.0,,20.95,79.05,20.95,20.95,20.95,20.95
+1 1000.470.01.433.10 2015,,351,DEBEGESA,213957.68,223957.68,,221972.1,1985.58,221972.1,221972.1,221972.1,221972.1
+1 1000.471.01.241.00 2015,,186,A OTRAS EMPRESAS. PLAN LOCAL DE EMPLEO,83962.0,91650.69,,90000.0,1650.69,48000.0,,,
+1 1000.471.01.241.00 2014,,563,A OTR. EMPRESAS. PLAN LOCAL DE EMPLEO,,77992.19,,65521.58,12470.61,65521.58,65521.58,65521.58,65521.58
+1 1000.471.01.433.10 2015,,352,A OTRAS EMPRESAS.APORTAC.A PREM.T.ECHEV.,35000.0,35000.0,,35000.0,,35000.0,35000.0,35000.0,35000.0
+1 1000.471.02.433.10 2015,,353,SUBVENCION A OTRAS EMPRESAS,32800.0,32800.0,,32800.0,,32800.0,32800.0,32800.0,32800.0
+1 1000.471.03.433.10 2015,,354,A OTRAS EMPRESAS.RETOS TECNOLOGICOS,9000.0,36000.0,,35700.0,300.0,35700.0,3000.0,3000.0,3000.0
+1 1000.480.12.433.10 2015,,355,A FAMILIAS.ESCOLARES,188800.0,188800.0,,189269.55,-469.55,189269.55,189269.55,189269.55,189269.55
+1 1000.480.14.433.10 2015,,356,A FAMILIAS.AYUDAS ESTUDIANTES,70000.0,70000.0,,68713.39,1286.61,68713.39,68713.39,68713.39,68713.39
+1 1000.481.01.433.10 2015,,357,SUBVENCION NOMINATIVA EKINGUNE,9920.0,9920.0,,9920.0,,9920.0,7440.0,7440.0,7440.0
+1 1000.481.03.433.10 2015,,358,TRANSFERENCIA A ASOCIACION COMERCIANTES,27000.0,27000.0,,27000.0,,27000.0,20250.0,20250.0,20250.0
+1 1000.481.03.433.10 2014,,564,TRANSF. A LA ASOCIAC. DE COMERCIANTES,,6750.0,,6750.0,,6750.0,6750.0,6750.0,6750.0
+1 1000.481.05.433.10 2015,,359,TRANSF.EIBAR CTRO COM.ABIERT.PROM.CAMP.,35900.0,35900.0,,35900.0,,35900.0,26925.0,26925.0,26925.0
+1 1000.481.05.433.10 2014,,565,TRANSF. A LA ASOCIAC. C.COMERC. ABIERTO,,8975.0,,8975.0,,8975.0,8975.0,8975.0,8975.0
+1 1000.481.17.433.10 2015,,360,"TRANSF.ASOC.""EIBAR CENTR.COMERC.ABIERTO""",64800.0,64800.0,,64800.0,,64800.0,64800.0,64800.0,64800.0
+1 1000.481.17.433.10 2014,,566,TRANSF. A LA ASOCIAC. C.COMERC. ABIERTO,,8700.0,,8700.0,,8700.0,8700.0,8700.0,8700.0
+1 1100.100.01.912.00 2015,,375,RETRIB.BASICAS/OTRAS REMUNERACIONES,496764.66,468942.66,,400358.66,68584.0,400358.66,400358.66,400358.66,400358.66
+1 1100.110.01.912.00 2015,,376,RETRIB.BASICAS/OTRAS REMUNERACIONES,46555.78,46555.78,,45695.83,859.95,45695.83,45695.83,45695.83,45695.83
+1 1100.120.01.920.11 2015,,384,RETRIBUCIONES BASICAS,113428.12,113428.12,,110863.9,2564.22,110863.9,110863.9,110863.9,110863.9
+1 1100.120.01.920.20 2015,,406,RETRIBUCIONES BASICAS,76159.51,76159.51,,79078.85,-2919.34,79078.85,79078.85,79078.85,79078.85
+1 1100.120.01.920.30 2015,,420,RETRIBUCIONES BASICAS,62115.57,62115.57,,62246.09,-130.52,62246.09,62246.09,62246.09,62246.09
+1 1100.120.01.923.10 2015,,450,RETRIBUCIONES BASICAS,9129.36,9129.36,,9129.36,,9129.36,9129.36,9129.36,9129.36
+1 1100.120.01.925.00 2015,,455,RETRIBUCIONES BASICAS,84103.1,84103.1,,89447.94,-5344.84,89447.94,89447.94,89447.94,89447.94
+1 1100.121.05.920.11 2015,,609,OTRAS REMUMERACIONES,,6739.93,,6739.93,,6739.93,6739.93,6739.93,6739.93
+1 1100.121.05.920.20 2015,,610,OTRAS REMUMERACIONES,,3100.57,,3100.57,,3100.57,3100.57,3100.57,3100.57
+1 1100.121.05.920.30 2015,,611,OTRAS REMUMERACIONES,,3854.01,,3854.01,,3854.01,3854.01,3854.01,3854.01
+1 1100.121.05.923.10 2015,,612,OTRAS REMUMERACIONES,,530.13,,530.13,,530.13,530.13,530.13,530.13
+1 1100.121.05.925.00 2015,,613,OTRAS REMUMERACIONES,,3670.53,,3670.53,,3670.53,3670.53,3670.53,3670.53
+1 1100.121.99.920.11 2015,,385,COMPLEMENTOS VARIOS,252742.47,252742.47,,243950.87,8791.6,243950.87,243950.87,243950.87,243950.87
+1 1100.121.99.920.20 2015,,407,COMPLEMENTOS VARIOS,123718.76,123718.76,,153075.62,-29356.86,153075.62,153075.62,153075.62,153075.62
+1 1100.121.99.920.30 2015,,421,COMPLEMENTOS VARIOS,156069.45,156069.45,,149150.01,6919.44,149150.01,149150.01,149150.01,149150.01
+1 1100.121.99.923.10 2015,,451,COMPLEMENTOS VARIOS,19810.38,19810.38,,19810.38,,19810.38,19810.38,19810.38,19810.38
+1 1100.121.99.925.00 2015,,456,COMPLEMENTOS VARIOS,178388.34,178388.34,,188667.57,-10279.23,188667.57,188667.57,188667.57,188667.57
+1 1100.130.02.920.11 2015,,626,OTRAS REMUMERACIONES,,507.61,,507.61,,507.61,507.61,507.61,507.61
+1 1100.130.02.920.20 2015,,627,OTRAS REMUMERACIONES,,623.9,,623.9,,623.9,623.9,623.9,623.9
+1 1100.130.03.920.11 2015,,386,REMUNERACIONES PERSONAL LABORAL FIJO,26320.58,26320.58,,31161.31,-4840.73,31161.31,31161.31,31161.31,31161.31
+1 1100.130.03.920.20 2015,,408,REMUNERACIONES PERSONAL LABORAL FIJO,45162.4,45162.4,,40736.18,4426.22,40736.18,40736.18,40736.18,40736.18
+1 1100.131.01.920.11 2015,,387,LABORAL EVENTUAL,28047.76,28047.76,,56709.7,-28661.94,56709.7,56709.7,56709.7,56709.7
+1 1100.131.01.925.00 2015,,582,LABORAL EVENTUAL,,,,5227.09,-5227.09,5227.09,5227.09,5227.09,5227.09
+1 1100.131.02.920.11 2015,,636,OTRAS REMUMERACIONES,,451.33,,451.33,,451.33,451.33,451.33,451.33
+1 1100.160.01.912.00 2015,,377,SEGURIDAD SOCIAL,154235.64,154235.64,,124981.15,29254.49,124981.15,124981.15,124981.15,124981.15
+1 1100.160.01.920.11 2015,,388,SEGURIDAD SOCIAL,119306.57,119306.57,,127200.18,-7893.61,127200.18,127200.18,127200.18,127200.18
+1 1100.160.01.920.20 2015,,409,SEGURIDAD SOCIAL,68745.36,68745.36,,75204.1,-6458.74,75204.1,75204.1,75204.1,75204.1
+1 1100.160.01.920.30 2015,,422,SEGURIDAD SOCIAL,61297.02,61297.02,,58456.93,2840.09,58456.93,58456.93,58456.93,58456.93
+1 1100.160.01.923.10 2015,,452,SEGURIDAD SOCIAL,9176.04,9176.04,,9176.04,,9176.04,9176.04,9176.04,9176.04
+1 1100.160.01.925.00 2015,,457,SEGURIDAD SOCIAL,74394.73,74394.73,,79066.68,-4671.95,79066.68,79066.68,79066.68,79066.68
+1 1100.160.04.920.11 2015,,389,CUOTAS ELKARKIDETZA,11998.7,11998.7,,11727.42,271.28,11727.42,11727.42,11727.42,11727.42
+1 1100.160.04.920.20 2015,,410,CUOTAS ELKARKIDETZA,7686.42,7686.42,,6736.94,949.48,6736.94,6736.94,6736.94,6736.94
+1 1100.160.04.920.30 2015,,423,CUOTAS ELKARKIDETZA,5679.8,5679.8,,5679.8,,5679.8,5679.8,5679.8,5679.8
+1 1100.160.04.923.10 2015,,453,CUOTAS ELKARKIDETZA,949.48,949.48,,949.48,,949.48,949.48,949.48,949.48
+1 1100.160.04.925.00 2015,,458,CUOTAS ELKARKIDETZA,7081.48,7081.48,,7352.76,-271.28,7352.76,7352.76,7352.76,7352.76
+1 1100.160.05.920.20 2015,,411,ASISTENCIA MEDICO-FARMACEUTICA,1500.0,1500.0,,,1500.0,,,,
+1 1100.161.03.221.00 2015,,117,INDEMNIZAC.JUBILACIONES ANTICIPADAS,115829.67,115829.67,,74462.01,41367.66,74462.01,74462.01,74462.01,74462.01
+1 1100.161.05.221.00 2015,,118,RETRIB.PEND.PERS.SITUAC.BAJ.PLANTILLA,1.0,12108.37,,12108.37,,12108.37,12108.37,12108.37,12108.37
+1 1100.162.01.920.20 2015,,412,FORMACION,40000.0,45500.0,,39953.8,5546.2,39953.8,39953.8,39953.8,39953.8
+1 1100.162.01.920.20 2014,,489,FORMACION,,15643.96,,15643.96,,15643.96,15643.96,15643.96,15643.96
+1 1100.162.05.920.20 2015,,413,SEGUROS,103488.94,103488.94,,49450.3,54038.64,49450.3,49450.3,49450.3,49450.3
+1 1100.204.01.920.12 2015,,397,ARRENDAMIENTO MOBILIARIO Y EQUIPOS,20000.0,20000.0,,13449.04,6550.96,13449.04,13449.04,13449.04,13449.04
+1 1100.212.01.920.12 2015,,398,"MAQUINARIA,INSTALACIONES Y UTILLAJE",10000.0,10000.0,,11466.37,-1466.37,11466.37,11466.37,11466.37,11466.37
+1 1100.215.01.920.30 2015,,424,EQUIPOS PARA PROCESOS DE INFORM.MANTTO,16629.0,16629.0,,16406.95,222.05,16406.95,15394.89,15394.89,15394.89
+1 1100.215.01.920.30 2014,,490,EQUIPAM.PROCESOS INFORMAC. MANTTO.,,2148.66,,2148.66,,2148.66,2148.66,2148.66,2148.66
+1 1100.215.02.920.30 2015,,425,MANTENIMIENTO DE APLICACIONES,45985.0,45985.0,,45030.41,954.59,45030.41,40634.48,40634.48,40634.48
+1 1100.220.01.920.11 2015,,390,ORDINARIO NO INVENTARIABLE,3300.0,3300.0,,1548.8,1751.2,1548.8,1548.8,1548.8,1548.8
+1 1100.220.01.920.12 2015,,399,ORDINARIO NO INVENTARIABLE,53000.0,53000.0,,43945.54,9054.46,43945.54,42810.83,42810.83,42810.83
+1 1100.220.01.920.12 2014,,560,ORDINARIO NO INVENTARIABLE,,2650.18,,2490.18,160.0,2490.18,2490.18,2490.18,2490.18
+1 1100.220.02.920.12 2015,,400,PRENSA/REVISTAS/LIBROS/OTRAS PUBLIC.,20600.0,20600.0,,15889.68,4710.32,15889.68,15889.68,15889.68,15889.68
+1 1100.220.03.920.30 2015,,426,MATERIAL INFORMATICO NO INVENTARIABLE,1500.0,1500.0,,1247.74,252.26,1247.74,1247.74,1247.74,1247.74
+1 1100.221.05.920.11 2015,,391,VESTUARIO.CONSERJE Y ORDENANZAS,1300.0,1300.0,,1170.0,130.0,1170.0,1170.0,1170.0,1170.0
+1 1100.222.02.920.12 2015,,401,GASTOS DE CORREOS,54500.0,54500.0,,37803.29,16696.71,37803.29,37803.29,37803.29,37803.29
+1 1100.222.99.920.12 2015,,402,OTRAS COMUNIC.RECADIST/MENSAJ/OTROS,4000.0,4000.0,,2191.0,1809.0,2191.0,2191.0,2191.0,2191.0
+1 1100.224.99.920.11 2015,,392,OTROS RIESGOS.SEGURO RESPONSAB.CIVIL,83827.32,83827.32,,60240.41,23586.91,60240.41,53839.56,53839.56,53839.56
+1 1100.226.02.912.00 2015,,378,ATENCIONES PROTOCOL/REPRESENTATIVAS,21500.0,24386.7,,26216.4,-1829.7,26216.4,26216.4,26216.4,26216.4
+1 1100.226.03.912.00 2015,,379,"PUBLICACIONES, PUBLICIDAD Y PROPAGANDA",8695.0,16195.0,,15907.28,287.72,15907.28,15907.28,15907.28,15907.28
+1 1100.226.03.920.12 2015,,403,PUBLIC/PROPAG.ANUNC.BOLETINES/PERIODICOS,36000.0,36000.0,,29442.17,6557.83,29442.17,29442.17,29442.17,29442.17
+1 1100.226.04.920.11 2015,,393,JURIDICOS,78000.0,78000.0,,76086.35,1913.65,76086.35,51583.85,51583.85,51583.85
+1 1100.226.04.920.11 2014,,491,JURIDICOS,,9680.0,,,9680.0,,,,
+1 1100.226.83.912.00 2015,,380,PUBLICIDAD Y PROMOCION EN T.V.,9075.0,9075.0,,10890.0,-1815.0,10890.0,10890.0,10890.0,10890.0
+1 1100.226.86.336.10 2015,,638,OTR.GAST.DIV.DEVOL.SUBV.NIÑOS GUERRA 2,,719.48,,719.48,,719.48,719.48,719.48,719.48
+1 1100.226.99.336.10 2015,,309,OTROS GASTOS DIVERSOS,25470.0,25470.0,,25765.5,-295.5,25765.5,14902.01,14902.01,14902.01
+1 1100.226.99.336.10 2014,,492,OTROS GASTOS DIVERSOS,,7000.0,,7000.0,,7000.0,7000.0,7000.0,7000.0
+1 1100.226.99.920.11 2015,,394,INDEM.COMPENS.TERC/COBERT.OTR.RIESGOS,40000.0,40000.0,,12378.78,27621.22,12378.78,12378.78,12378.78,12378.78
+1 1100.226.99.929.00 2015,,460,CREDITO GLOBAL,60000.0,5000.0,,,5000.0,,,,
+1 1100.227.07.920.20 2015,,414,ESTUD/TRABAJ.TECNICOS.SELECC.PERSONAL,3500.0,6500.0,,2590.8,3909.2,2590.8,1816.32,1816.32,1816.32
+1 1100.227.20.920.30 2015,,427,CONVENIO IZFE,120000.0,120000.0,,119171.54,828.46,119171.54,119171.54,119171.54,119171.54
+1 1100.227.90.920.30 2015,,428,TRABAJOS EXTERNOS,10000.0,10000.0,,,10000.0,,,,
+1 1100.227.92.920.20 2015,,415,SERVICIO DE PREVENCION DE SALUD LABORAL,23000.0,23000.0,,17799.18,5200.82,17799.18,17799.18,17799.18,17799.18
+1 1100.227.99.336.10 2015,,575,OTROS TRAB.EXTERIORES. MOJONES,5800.0,5800.0,,3781.01,2018.99,3781.01,,,
+1 1100.227.99.920.11 2015,,395,OTROS TRABAJOS EXTERIORES,5000.0,5000.0,,4968.72,31.28,4968.72,4968.72,4968.72,4968.72
+1 1100.227.99.920.20 2015,,416,OTROS TRABAJOS EXTERIORES.MEDICO EMPRESA,12000.0,12000.0,,11757.48,242.52,11757.48,11757.48,11757.48,11757.48
+1 1100.227.99.920.30 2015,,429,OTR.TRAB.EXTERIORES.ASIST.TECNIC/FORMAC.,4000.0,4000.0,,217.8,3782.2,217.8,217.8,217.8,217.8
+1 1100.230.01.920.11 2015,,396,DIETAS/LOCOMOC/TRASLADO PERSONAL,100.0,100.0,,97.15,2.85,97.15,97.15,97.15,97.15
+1 1100.230.01.920.20 2015,,417,DIETAS/LOCOMOC/TRASLADO PERSONAL,4300.0,4300.0,,1140.72,3159.28,1140.72,1140.72,1140.72,1140.72
+1 1100.230.01.920.30 2015,,430,DIETAS/LOCOMOC/TRASLADO PERSONAL,100.0,100.0,,84.55,15.45,84.55,84.55,84.55,84.55
+1 1100.230.01.923.10 2015,,454,DIETAS/LOCOMOC/TRASLADO PERSONAL,100.0,100.0,,8.25,91.75,8.25,8.25,8.25,8.25
+1 1100.230.01.925.00 2015,,459,DIETAS/LOCOMOC/TRASLADO PERSONAL,100.0,100.0,,159.47,-59.47,159.47,159.47,159.47,159.47
+1 1100.231.01.912.00 2015,,381,DIETAS/LOCOMOC/TRASLADO ALTOS CARGOS,5000.0,5000.0,,1322.57,3677.43,1322.57,1322.57,1322.57,1322.57
+1 1100.231.02.912.00 2015,,382,DIETAS ASIST.A COMIS.ALTOS CARGOS,116930.0,148252.0,,147895.0,357.0,147895.0,147895.0,147895.0,147895.0
+1 1100.409.01.922.00 2015,,448,OTRAS ENTIDADES PUBLICAS.FEMP,2000.0,2000.0,,1791.77,208.23,1791.77,1791.77,1791.77,1791.77
+1 1100.419.01.922.00 2015,,449,OTRAS ENTIDADES PUBLICAS.EUDEL,4700.0,4700.0,,4507.59,192.41,4507.59,4507.59,4507.59,4507.59
+1 1100.481.01.912.00 2015,,383,A INSTITUCIONES SIN FINES DE LUCRO,126972.0,126972.0,,126971.99,0.01,126971.99,126971.99,126971.99,126971.99
+1 1100.625.01.920.12 2015,,404,MOBILIARIO,3000.0,9100.0,,5622.87,3477.13,5622.87,5017.87,5017.87,5017.87
+1 1100.625.02.920.12 2015,,405,EQUIPOS OFICINA,3000.0,8800.0,,8205.68,594.32,8205.68,8205.68,8205.68,8205.68
+1 1100.626.01.920.30 2015,,431,EQUIPOS PARA PROCESOS DE INFORMACION,39600.0,39600.0,,45570.67,-5970.67,45570.67,28596.79,28596.79,28596.79
+1 1100.626.01.920.30 2014,,496,EQUIPOS PARA PROCESOS INFORMACION,,15282.64,,14670.99,611.65,14670.99,14670.99,14670.99,14670.99
+1 1100.645.01.920.30 2015,,432,APLICACIONES INFORMATICAS,43965.0,49965.0,,41290.94,8674.06,41290.94,41021.39,41021.39,41021.39
+1 1100.645.01.920.30 2014,,497,APLICACIONES INFORMATICAS,,6077.59,,6077.59,,6077.59,6077.59,6077.59,6077.59
+1 1100.771.01.433.10 2015,,640,"A OTRAS EMPRESAS. BIC BERRILAN, SA",,140283.97,,140283.97,,,,,
+1 1100.823.01.920.20 2015,,418,ANTICIPOS AL PERSONAL (A CORTO PLAZO),49000.0,49000.0,,8628.66,40371.34,8628.66,8628.66,8628.66,8628.66
+1 1100.833.01.920.20 2015,,419,ANTICIPOS AL PERSONAL (A LARGO PLAZO),10000.0,10000.0,,22522.97,-12522.97,22522.97,22522.97,22522.97,22522.97
+1 1200.120.01.931.10 2015,,461,RETRIBUCIONES BASICAS,54261.28,54261.28,,56939.86,-2678.58,56939.86,56939.86,56939.86,56939.86
+1 1200.120.01.931.20 2015,,469,RETRIBUCIONES BASICAS,41925.44,41925.44,,44084.73,-2159.29,44084.73,44084.73,44084.73,44084.73
+1 1200.120.01.932.00 2015,,474,RETRIBUCIONES BASICAS,79706.08,79706.08,,85538.88,-5832.8,85538.88,85538.88,85538.88,85538.88
+1 1200.120.01.934.00 2015,,480,RETRIBUCIONES BASICAS,21214.99,21214.99,,21214.95,0.04,21214.95,21214.95,21214.95,21214.95
+1 1200.121.05.931.10 2015,,614,OTRAS REMUMERACIONES,,2007.15,,2007.15,,2007.15,2007.15,2007.15,2007.15
+1 1200.121.05.931.20 2015,,615,OTRAS REMUMERACIONES,,2516.48,,2516.48,,2516.48,2516.48,2516.48,2516.48
+1 1200.121.05.932.00 2015,,616,OTRAS REMUMERACIONES,,4919.64,,4919.64,,4919.64,4919.64,4919.64,4919.64
+1 1200.121.05.934.00 2015,,617,OTRAS REMUMERACIONES,,1353.53,,1353.53,,1353.53,1353.53,1353.53,1353.53
+1 1200.121.99.931.10 2015,,462,COMPLEMENTOS VARIOS,114883.94,114883.94,,124820.93,-9936.99,124820.93,124820.93,124820.93,124820.93
+1 1200.121.99.931.20 2015,,470,COMPLEMENTOS VARIOS,94633.31,94633.31,,98461.53,-3828.22,98461.53,98461.53,98461.53,98461.53
+1 1200.121.99.932.00 2015,,475,COMPLEMENTOS VARIOS,176445.13,176445.13,,183971.45,-7526.32,183971.45,183971.45,183971.45,183971.45
+1 1200.121.99.934.00 2015,,481,COMPLEMENTOS VARIOS,52123.4,52123.4,,52123.31,0.09,52123.31,52123.31,52123.31,52123.31
+1 1200.160.01.931.10 2015,,463,SEGURIDAD SOCIAL,44462.33,44462.33,,47599.5,-3137.17,47599.5,47599.5,47599.5,47599.5
+1 1200.160.01.931.20 2015,,471,SEGURIDAD SOCIAL,33130.42,33130.42,,34803.8,-1673.38,34803.8,34803.8,34803.8,34803.8
+1 1200.160.01.932.00 2015,,476,SEGURIDAD SOCIAL,70648.6,70648.6,,75298.75,-4650.15,75298.75,75298.75,75298.75,75298.75
+1 1200.160.01.934.00 2015,,482,SEGURIDAD SOCIAL,17853.07,17853.07,,17958.74,-105.67,17958.74,17958.74,17958.74,17958.74
+1 1200.160.04.931.10 2015,,464,CUOTAS ELKARKIDETZA,4679.75,4679.75,,4770.63,-90.88,4770.63,4770.63,4770.63,4770.63
+1 1200.160.04.931.20 2015,,472,CUOTAS ELKARKIDETZA,3594.78,3594.78,,3741.3,-146.52,3741.3,3741.3,3741.3,3741.3
+1 1200.160.04.932.00 2015,,477,CUOTAS ELKARKIDETZA,7155.22,7155.22,,7781.35,-626.13,7781.35,7781.35,7781.35,7781.35
+1 1200.160.04.934.00 2015,,483,CUOTAS ELKARKIDETZA,1797.39,1797.39,,1797.32,0.07,1797.32,1797.32,1797.32,1797.32
+1 1200.227.07.931.10 2015,,465,ESTUDIOS/TRABAJ.TECNICOS.AUDITORIA-OTROS,30000.0,30000.0,,20835.0,9165.0,20835.0,3411.0,3411.0,3411.0
+1 1200.227.07.931.10 2014,,561,ESTUDIOS Y TRABAJOS TECNICOS,,17424.0,,17424.0,,17424.0,17424.0,17424.0,17424.0
+1 1200.227.07.932.00 2015,,478,COLABORAC.ASIST.TCA A LA INSPECCION,10000.0,10000.0,,10000.0,,10000.0,,,
+1 1200.230.01.931.10 2015,,466,DIETAS/LOMOMOC/TRASLADO PERSONAL,100.0,100.0,,164.22,-64.22,164.22,164.22,164.22,164.22
+1 1200.230.01.931.20 2015,,473,DIETAS/LOCOMOC/TRASLADO PERSONAL,100.0,100.0,,103.62,-3.62,103.62,103.62,103.62,103.62
+1 1200.230.01.932.00 2015,,479,DIETAS/LOCOMOC/TRASLADO PERSONAL,100.0,100.0,,124.0,-24.0,124.0,124.0,124.0,124.0
+1 1200.230.01.934.00 2015,,484,DIETAS/LOCOMOC/TRASLADO PERSONAL,100.0,100.0,,27.26,72.74,27.26,27.26,27.26,27.26
+1 1200.332.01.011.00 2015,,1,INTERESES,150006.82,150006.82,,62115.09,87891.73,62115.09,62115.09,62115.09,62115.09
+1 1200.369.01.934.00 2015,,485,OTROS GASTOS FINANCIEROS,20821.95,20821.95,,1780.4,19041.55,1780.4,1780.4,1780.4,1780.4
+1 1200.369.99.934.00 2015,,486,DIFERENCIAS NEGATIVAS EN CAJA,10.0,10.0,,,10.0,,,,
+1 1200.860.01.931.10 2015,,467,CONSTITUC.FIANZAS A CORTO PLAZO,100.0,100.0,,,100.0,,,,
+1 1200.860.02.931.10 2015,,468,CONSTITUC.FIANZAS A LARGO PLAZO,100.0,100.0,,,100.0,,,,
+1 1200.933.01.011.00 2015,,2,FUERA SECTOR PUBLICO,963170.24,2524228.36,,2238899.52,285328.84,2238899.52,2238899.52,2238899.52,2238899.52
+#TOTAL,,,,30840383.97,35267658.76,52200.0,32343585.63,2871873.13,30677778.38,28498850.61,28498850.61,28498850.61
