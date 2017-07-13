@@ -131,36 +131,9 @@ FEATURED_PROGRAMMES = [ '15320', '13310', '23110', '17100' ]
 # Overview Settings
 # ----------------------
 
-OVERVIEW_INCOME_NODES = [
-                          {
-                            'nodes': [['11', '113']],
-                            'label': 'Impuesto a bienes inmuebles de naturaleza urbana',
-                            'link_id': '11'
-                          },
-                          {
-                            'nodes': [['30', '300']],
-                            'label': 'Servicio de abastecimiento de agua',
-                            'link_id': '30'
-                          },
-                          '42', '45',
-                          {
-                            'nodes': [['29', '293']],
-                            'label': 'Impuesto general indirecto canario (IGIC)',
-                            'link_id': '29'
-                          },
-                          {
-                            'nodes': [['11', '115']],
-                            'label': 'Impuesto sobre vehículos de tracción mecánica',
-                            'link_id': '11'
-                          },
-                          {
-                            'nodes': [['30', '302']],
-                            'label': 'Servicio de recogida de basuras',
-                            'link_id': '30'
-                          },
-                        ]
+OVERVIEW_INCOME_NODES = [ '42', '11', '71', '41', '13']
 
-OVERVIEW_EXPENSE_NODES = ['16', '13', '92', '15', '33', '23', '34', '17', '32']
+OVERVIEW_EXPENSE_NODES = [ '33', '15', '16', '23', '13', '92', '32', '34' ]
 
 # How much padding between Sankey nodes. Default: 10 (Optional)
 # Note: higher values will result in a more 'curvy accordion'.
