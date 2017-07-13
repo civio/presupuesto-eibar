@@ -31,26 +31,24 @@ class EibarBudgetLoader(SimpleBudgetLoader):
         is_expense = (filename.find('gastos.csv')!=-1)
         is_actual = (filename.find('/ejecucion_')!=-1)
 
+        # We got a composite identifier, with more info, so we must isolate the different bits
+        full_code = line[0].strip()
+
         # Expenses
         if is_expense:
-            # We got a composite identifier, with more info, so we must isolate the functional code
-            fc_code = line[0].strip()
-            fc_code = fc_code[14:20]
-            fc_code = fc_code.replace('.', '')
+            # Isolate the functional code
+            fc_code = full_code[14:20].replace('.', '')
 
             # For years before 2015 we check whether we need to amend the programme code
             year = re.search('municipio/(\d+)/', filename).group(1)
             if int(year) < 2015:
                 fc_code = programme_mapping.get(fc_code, fc_code)
 
-            # We got a composite identifier, with more info, so we must isolate the economic code
             # On economic codes we get the first three digits (everything but last two)
-            ec_code = line[0].strip()
-            ec_code = ec_code[7:10]
+            ec_code = full_code[7:10]
 
             # Item numbers are the last two digits from the economic codes (fourth and fifth digit)
-            item_number = line[0].strip()
-            item_number = item_number[11:13]
+            item_number = full_code[11:13]
 
             # Parse amount
             amount = line[10 if is_actual else 5].strip()
@@ -69,14 +67,11 @@ class EibarBudgetLoader(SimpleBudgetLoader):
 
         # Income
         else:
-            # We got a composite identifier, with more info, so we must isolate the economic code
             # On economic codes we get the first three digits (everything but last two)
-            ec_code = line[0].strip()
-            ec_code = ec_code[2:5]
+            ec_code = full_code[2:5]
 
             # Item numbers are the last two digits from the economic codes (fourth and fifth digit)
-            item_number = line[0].strip()
-            item_number = item_number[6:8]
+            item_number = full_code[6:8]
 
             # Parse amount
             amount = line[5 if is_actual else 4].strip()
