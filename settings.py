@@ -38,7 +38,7 @@ BUDGET_LOADER = 'EibarBudgetLoader'
 # ----------------------
 
 # Show an extra tab with institutional breakdown. Default: True.
-# SHOW_INSTITUTIONAL_TAB  = False
+SHOW_INSTITUTIONAL_TAB  = False
 
 # Show section pages. Still under development, see #347. Default: False.
 # SHOW_SECTION_PAGES = True
