@@ -11,15 +11,12 @@ MAIN_ENTITY_NAME = 'Eibar'
 # Theme Budget Loader class name. Default: 'SimpleBudgetLoader'
 BUDGET_LOADER = 'EibarBudgetLoader'
 
-# Theme Payments Loader class name. Default: 'PaymentsLoader'
-PAYMENTS_LOADER = 'EibarPaymentsLoader'
-
 
 # Show / hide Settings
 # ----------------------
 
 # Show Payments section in menu & home options. Default: False.
-SHOW_PAYMENTS = True
+# SHOW_PAYMENTS = True
 
 # Configure 'by area' payment breakdown. Default: ['area', 'payee', 'description']
 # PAYMENTS_BREAKDOWN_BY_AREA = ['area', 'payee', 'description']
@@ -28,7 +25,7 @@ SHOW_PAYMENTS = True
 # PAYMENTS_BREAKDOWN_BY_PAYEE = ['payee', 'area', 'description']
 
 # Show Tax Receipt section in menu & home options. Default: False.
-SHOW_TAX_RECEIPT = True
+# SHOW_TAX_RECEIPT = True
 
 # Show Counties & Towns links in Policies section in menu & home options. Default: False.
 # SHOW_COUNTIES_AND_TOWNS = True
