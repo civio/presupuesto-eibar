@@ -30,8 +30,8 @@ $font-family-base:        $font-family-sans-serif;
 
 $font-weight-300:         300;
 $font-weight-400:         400;
-$font-weight-600:         600; 
-$font-weight-700:         700; 
+$font-weight-600:         600;
+$font-weight-700:         700;
 
 $headings-font-weight:    $font-weight-600;
 
@@ -180,5 +180,5 @@ $data-sources-color: $brand-terciary;
 // Sankey Viz
 // --------------
 
-$sankey-budget-color:     mix( $gray-light, $gray-lighter, 40% );
-$sankey-execution-color:  mix( $brand-primary, white, 80% );                          // #1F77B4;
+$sankey-income-color: $brand-primary;
+$sankey-expense-color: complement($sankey-income-color);
