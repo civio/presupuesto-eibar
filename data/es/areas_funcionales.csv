@@ -143,6 +143,8 @@
 #
 # Programas específicos de Eibar
 #
+4,3,2,00,"Información y promoción turística"
+#
 0,1,1,00,"Deuda pública"
 1,3,0,00,"Admón. general de la seguridad y protección civil"
 1,3,2,00,"Seguridad y orden público"
@@ -166,7 +168,7 @@
 2,3,0,10,"Evaluación e información de situaciones de necesidad"
 2,3,0,20,"Cooperación y ayudas el desarrollo (O.N.G.)"
 2,3,1,10,"Servicio de ayuda a domicilio"
-2,3,1,30,"Ayudas e emergencia social (A.E.S.)"
+2,3,1,30,"Ayudas de emergencia social (A.E.S.)"
 2,3,1,40,"Apartamentos tutelados"
 2,3,1,50,"Promoción de la igualdad de género"
 2,3,1,60,"Atención a personas en situación de riesgo, desprotección, s."
