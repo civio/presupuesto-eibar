@@ -108,7 +108,7 @@ MAIN_ENTITY_LEGAL_URL   = 'http://www.eibar.eus/eu/lege-oharra'
 MAIN_ENTITY_PRIVACY_URL = ''
 
 # External URL for Cookies Policy (if empty we use out template page/cookies.html)
-COOKIES_URL             = ''
+COOKIES_URL             = 'http://www.eibar.eus/eu/lege-oharra'
 
 # We can define additional URLs applicable only to the theme. These will get added
 # to the project URL patterns list.
