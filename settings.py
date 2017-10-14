@@ -135,6 +135,9 @@ OVERVIEW_INCOME_NODES = [ '42', '11', '71', '41', '13']
 
 OVERVIEW_EXPENSE_NODES = [ '33', '15', '16', '23', '13', '92', '32', '34' ]
 
+# Use the new overview Sankey. Default: False
+OVERVIEW_USE_NEW_VIS = True
+
 # How much padding between Sankey nodes. Default: 10 (Optional)
 # Note: higher values will result in a more 'curvy accordion'.
 # OVERVIEW_NODE_PADDING = 15
