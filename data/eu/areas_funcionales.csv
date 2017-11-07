@@ -222,13 +222,13 @@
 9,3,2,00,"Tributu-sistemaren kudeaketa"
 9,3,4,00,"Zorraren eta diruzaintzaren kudeaketa"
 #
-# Programas específicos de Eibar anteriores a 2015
+# Programas específicos de Eibar anteriores a 2015, extinguidos
 #
-0,1,0,00,"Zor Publikoa"
-2,2,2,10,"Udaltzaingoa"
-3,1,3,10,"Nagusiendako programak eta zerbitzua"
-3,1,3,90,"Oinarrziko gizarte zerbitzuak"
-4,4,9,00,"Administrazio orokorra komunitatearen hobekuntza"
-4,5,1,50,"Arte eszeniko unitatea. Koliseo"
-5,1,1,00,"Azpiegitura lanak, bideak eta hirigintza"
-6,1,1,00,"Ekonomi eta finantza kudeaketa eta administrazioa"
+1,3,2,XX,"Udaltzaingoa"
+2,3,1,XX,"Nagusiendako programak eta zerbitzua"
+2,3,1,YY,"Oinarrziko gizarte zerbitzuak"
+1,5,3,XX,"Administrazio orokorra komunitatearen hobekuntza"
+3,3,3,XX,"Arte eszeniko unitatea. Koliseo"
+1,5,3,YY,"Azpiegitura lanak, bideak eta hirigintza"
+9,3,0,,"Finantza eta zerga-administrazioa"
+9,3,0,XX,"Ekonomi eta finantza kudeaketa eta administrazioa"

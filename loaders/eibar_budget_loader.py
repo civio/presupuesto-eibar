@@ -67,6 +67,15 @@ class EibarBudgetLoader(SimpleBudgetLoader):
             '76010':'43310',    # Desarrollo empresarial e innovación
             '76020':'43200',    # Información y promoción turística
             '76030':'43320',    # Urb. Grade.
+            # Mappings for obsolete programmes with actual multiple targets, but needed in order to mantain the timeline
+            '01000':'01100',    # Deuda pública -> Deuda pública
+            '22210':'132XX',    # Policía Local
+            '31310':'231XX',    # Programas y servicios para personas mayores
+            '31390':'231YY',    # Servicios sociales de base
+            '44900':'153XX',    # Administración general bienestar comunitario
+            '45150':'333XX',    # Unidad de artes escénicas. Coliseo
+            '51100':'153YY',    # Obras de Infraestructura, viales y urbanización
+            '61100':'930XX',    # Administración y gestión económica-financiera
         }
 
         # Institutional code (all income goes to the root node)
