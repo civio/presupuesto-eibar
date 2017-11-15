@@ -4,20 +4,24 @@
 	<div class="top-bar">
     <a href="{{ main_entity_web_url }}" title="Eibarko Udala"><img src="/static/assets/armarria.gif"></a>
 
-		<!-- Lang Selector -->
+		<!-- Lang Selector: setup static items to allow language labels translations -->
 		{% if LANGUAGES|length > 1 %}
     <div id="menu-lang">
       <ul>
-        {% for language in LANGUAGES %}
-          <li>
-            <form id="form_{{language[0]}}" method="get" action="/i18n/setlang/">
-              <input type="hidden" name="next" value="{{ request.path|redirect_url(language[0]) }}" />
-              <input type="hidden" name="language" value="{{ language[0] }}"/>
-              {#<a for="form_{{language[0]}}" href="javascript: document.form_{{language[0]}}.submitform()"{% if language[0].lower() == LANGUAGE_CODE %} class="active"{% endif %}>{{ language[1]|safe }}</a>#}
-              <input type="submit" value="{{ language[1]|safe }}" form="form_{{language[0]}}" {% if language[0].lower() == LANGUAGE_CODE %} class="active"{% endif %}/>
-            </form>
-          </li>
-        {% endfor %}
+        <li>
+          <form id="form_eu" method="get" action="/i18n/setlang/">
+            <input type="hidden" name="next" value="/eu/">
+            <input type="hidden" name="language" value="eu">
+            <input type="submit" value="{% if LANGUAGE_CODE == 'es' %}Euskera{% else %}Euskara{% endif %}" form="form_eu">
+          </form>
+        </li>
+        <li>
+          <form id="form_es" method="get" action="/i18n/setlang/">
+            <input type="hidden" name="next" value="/es/">
+            <input type="hidden" name="language" value="es">
+            <input type="submit" value="{% if LANGUAGE_CODE == 'es' %}Castellano{% else %}Gaztelania{% endif %}" form="form_es" class="active">
+          </form>
+        </li>
       </ul>
     </div>
     {% endif %}
@@ -27,7 +31,7 @@
 		<!-- Ayuntamiento Logo & Web Link -->
     <!-- Your logo must be located in "theme-folder/static/assets/logo.png" -->
 		<div class="main-entity-logo">
-			<a href="{{ main_entity_web_url }}" target="_blank">{{ _('Gobierno de Aragón') }}</a>
+			<a href="{{ main_entity_web_url }}/{{ LANGUAGE_CODE }}/" target="_blank">{{ _('Gobierno de Aragón') }}</a>
 		</div>
 
 		<!-- DVMI Title & Home Link -->
