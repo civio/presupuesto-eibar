@@ -102,13 +102,13 @@ DATA_SOURCE_INFLATION   = 'http://www.ine.es/jaxiT3/Tabla.htm?t=22350&L=0'
 MAIN_ENTITY_WEB_URL     = 'http://www.eibar.eus'
 
 # Setup Main Entity Legal Url (if empty we hide the link)
-MAIN_ENTITY_LEGAL_URL   = 'http://www.eibar.eus/eu/lege-oharra'
+MAIN_ENTITY_LEGAL_URL   = 'https://www.eibar.eus/es/aviso-legal'
 
 # Setup Main Entity Legal Url (if empty we hide the link)
 MAIN_ENTITY_PRIVACY_URL = ''
 
 # External URL for Cookies Policy (if empty we use out template page/cookies.html)
-COOKIES_URL             = 'http://www.eibar.eus/eu/lege-oharra'
+COOKIES_URL             = 'https://www.eibar.eus/es/aviso-legal'
 
 # We can define additional URLs applicable only to the theme. These will get added
 # to the project URL patterns list.
