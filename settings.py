@@ -74,7 +74,7 @@ INCLUDE_FINANCIAL_CHAPTERS_IN_BREAKDOWNS = True
 
 # Supported languages. Default: ('es', 'Castellano')
 LANGUAGES = (
-  ('eu', 'Euskera'),
+  ('eu', 'Euskara'),
   ('es', 'Castellano'),
   # ('en', 'English'),
   # ('ca', 'Catal&agrave;'),
