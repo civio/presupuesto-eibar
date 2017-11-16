@@ -66,3 +66,7 @@ msgstr "Inflazioarekin eguneratutako kopuruak, %sko urtarrilaren 1eko datarekin.
 #: templates/shared/data_sources.html:15
 msgid "El ajuste de la inflación se realiza a <strong>1 de enero de %s</strong>."
 msgstr "Inflazioaren araberako doikuntza <strong>%sko urtarrilaren 1eko datarekin egiten da</strong>."
+
+#: templates/budgets/budgets_intro.html:10
+msgid "Se realiza a través de impuestos directos -como el impuesto de bienes inmuebles (IBI) o el de vehículos de tracción mecánica (IVTM)- y de tasas -como la de recogida de basura"
+msgstr "Zuzeneko zergen bidez (adibidez, ondasun higiezinen gaineko zerga edo trakzio mekanikoko ibilgailuen gaineko zerga) egiten da"
