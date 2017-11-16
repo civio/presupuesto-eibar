@@ -12,14 +12,14 @@
           <form id="form_eu" method="get" action="/i18n/setlang/">
             <input type="hidden" name="next" value="/eu/">
             <input type="hidden" name="language" value="eu">
-            <input type="submit" value="{% if LANGUAGE_CODE == 'es' %}Euskera{% else %}Euskara{% endif %}" form="form_eu">
+            <input type="submit" value="{% if LANGUAGE_CODE == 'es' %}Euskera{% else %}Euskara{% endif %}" form="form_eu" class="{% if LANGUAGE_CODE == 'es' %}active{% endif %}">
           </form>
         </li>
         <li>
           <form id="form_es" method="get" action="/i18n/setlang/">
             <input type="hidden" name="next" value="/es/">
             <input type="hidden" name="language" value="es">
-            <input type="submit" value="{% if LANGUAGE_CODE == 'es' %}Castellano{% else %}Gaztelania{% endif %}" form="form_es" class="active">
+            <input type="submit" value="{% if LANGUAGE_CODE == 'es' %}Castellano{% else %}Gaztelania{% endif %}" form="form_es" class="{% if LANGUAGE_CODE == 'es' %}active{% endif %}">
           </form>
         </li>
       </ul>
