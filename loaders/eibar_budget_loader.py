@@ -24,7 +24,7 @@ class EibarBudgetLoader(SimpleBudgetLoader):
             '12150':'92030',    # Informática
             '12160':'92040',    # Edificios polivalentes
             '12170':'15340',    # Brigada *
-            '12180':'33610',    # Ego-ibarra
+            '12180':'33610',    # Ego Ibarra
             '19000':'92900',    # Imprevistos y funciones no clasificadas
             '31320':'23140',    # Apartamentos tutelados *
             '31321':'23150',    # Promoción de la igualdad de género
