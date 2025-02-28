@@ -12,8 +12,8 @@ $gray-lightest:         lighten($gray-base, 96%) !default;
 
 $text-color:            #414141;
 
-$brand-primary:         #990033;
-$brand-secondary:       #990033;
+$brand-primary:         #CE004A;
+$brand-secondary:       #CE004A;
 $brand-terciary:        #F5F1F0;
 
 $link-color:            $brand-primary;
@@ -24,7 +24,7 @@ $link-hover-decoration: underline;
 // Typography
 // -------------
 
-$font-family-sans-serif:  Arial, Helvetica Neue, Helvetica, sans-serif;
+$font-family-sans-serif:  Montserrat, Helvetica Neue, Helvetica, sans-serif;
 $font-family-serif:       Georgia, "Times New Roman", Times, serif;
 $font-family-base:        $font-family-sans-serif;
 
